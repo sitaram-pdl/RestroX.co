@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 5%;
+    height: 100%;
+}
+.title{
+    font-size: 20px;
+    font-weight: 900;
+    color: aliceblue;
+}
+.subText{
+    font-size: 12px;
+}
+.subText2{
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: 600;
+    width: 90%;
+    color: rgba(252, 252, 252, 0.644);
+    max-height: 60%;
+}
+.left{
+    width: 50%;
+}
+.subText3{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 26px;
+    width: 98%;
+    color: rgba(168, 168, 168, 0.644);
+}
+.business{
+    font-size: 15px;
+}
+.business2{
+    font-size: 12px;
+}
+.business3{
+    font-size: 10px;
+}

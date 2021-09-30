@@ -1,0 +1,250 @@
+.container{
+    width: 97%;
+    z-index: 232324;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    color: black;
+}
+.title{
+    margin-top: 2vh;
+    font-weight: 900;
+}
+.sub{
+    font-size: 0.8em;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+    margin-top: 2vh;
+    height: 80%;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+.first{
+    width: 27%;
+    border:1px solid #cac3c35b;
+    border-radius: 10px;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16181A;
+    color: aliceblue;
+  
+}
+.right{
+    width: 27%; 
+     border:1px solid #cac3c35b;
+     color: aliceblue;
+    border-radius: 10px;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16181A;
+}
+.time{
+    margin-top: 2vh;
+    font-size: 1em;
+    font-weight: 600;
+    width: 100%;
+}
+.arrival{
+    border:1px solid #bbb5b541; 
+    width: 90%;
+    padding:2%;
+    margin-top: 2%;
+    font-size: 0.7em;
+    font-weight: 900;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.arrival2{
+    border:1px solid #1f1e1e41; 
+    width: 43%;
+    padding:2%;
+    margin-top: 2%;
+    font-size: 0.6em;
+    font-weight: 900;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.sub2{
+    font-size: 1.3em;
+    color: rgb(175, 175, 175);
+    font-weight: 100;
+}
+.timer{
+    border-radius: 100%;
+    border:6px solid green;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 0;
+}
+.overtime{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.line{
+    flex:10
+}
+.dot{
+    flex:2
+}
+.pallete{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.message{
+    width: 75%;
+    margin-left: 2vw;
+    border-radius: 12px;
+     display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.message2{
+    width: 75%;
+    margin-left: 2vw;
+    border-radius: 12px;
+     display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+}
+.line{
+    border-right: 1px solid orange;
+    min-height: 7vh;        
+    transform: translate(-50%);
+}
+.line2{
+    border-right: 1px solid orange;
+    min-height: 9vh;        
+    transform: translate(-50%);
+}
+.division{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    font-family: 'Poppins';
+    font-weight: 600;
+    
+  font-size: 0.7em;
+}
+.icons{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divison{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    font-family: 'Poppins';
+    color: rgb(51, 51, 51);
+    
+}
+.divison1{
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    font-family: 'Poppins';
+    
+}
+
+.whiteDiv{
+    width: 25vw;
+    margin-top: 0.6vh;
+    height: 2.5vh;
+    font-size: 13px;
+    overflow: hidden;
+    color: #9e9e9e;
+}
+
+.timeline{
+    width: 100%;
+}
+
+
+
+
+
+.thirdRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0;
+    color: white;
+}
+.descNumber{
+    font-size: 0.7em;
+    color: gray;
+}
+.box{
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid #7E7E7E;
+    padding: 2%;
+
+}
+.number{
+    font-size: 1.5em;
+}
+
+.line44{
+    width: calc(100%-2em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 0.8em;
+    justify-content: center;
+    margin: 2vh 0;
+    border: 1px solid rgba(240, 248, 255, 0.13);
+    padding: 1em;
+    border-radius: 10px;
+}
+.title3{
+    width: 100%;
+}
+.alternative{
+    width: 93%;
+}
+.lineBar22{
+    width: 96%;
+}
+.symbol{
+    display: none !important;
+}
+.stats{
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: 0.7em;
+}

@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    margin-top: 12vh;
+    height:51vh;
+    border-radius: 20px;
+    background-color: #16181A;
+    margin-left: 2.5vw;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins';
+}
+.row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 12vw;
+        margin-top: 2vh;
+        font-weight: 600;
+}
+.white{
+    background-color: #FFFFFF;
+    color: black;
+}
+.number{
+    width: 2vw;
+}
+.whiteText{
+    color: #1F1D2B !important;    
+}
+.desc{
+    width: 11vw;
+}
+.task{
+    display: flex;
+    font-size: min(1vw,18px);
+}
+.total{
+    margin-left: 5px;
+    color: gray;
+}
+.array{
+    color: #dfdfdf;
+    font-weight: 300;
+    font-size: min(0.9vw,13px);
+}
+.row2{
+    height: 42vh;
+    overflow: scroll;
+   
+}
+.row2::-webkit-scrollbar {
+	width: 0px;
+	height: 0;			   /* width of the entire scrollbar */
+  } 

@@ -1,0 +1,45 @@
+.container{
+    width: calc(100% - 1em);
+    border-radius: 20px;
+    height: 10vh;
+    background-color: #161616;
+    display: flex;
+    overflow: hidden;
+   
+    padding: 0 1em;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+.container2::-webkit-scrollbar{
+    display: none;
+}
+.img img{
+    width: 4em;
+    border-radius: 50%;
+}
+.box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+
+.desc{
+    margin-left: 1.2em;
+    font-size: 1em;
+    color: gray;
+    text-transform: uppercase;
+}
+
+
+.number{
+    font-size: 1.4em;
+    font-weight: 900;
+}
+

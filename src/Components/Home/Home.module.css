@@ -1,0 +1,251 @@
+.container {
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.container2 {
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.overview {
+  font-size: 38px;
+  font-weight: 600;
+  color: #cdcccc;
+  font-family: "Poppins";
+  margin: 2% 2%;
+}
+.overview2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #cdcccc;
+  font-family: "Poppins";
+  margin: 0.7em 0.2em;
+}
+.stories {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  width: 63vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  margin-left: 1vw;
+}
+.stories::-webkit-scrollbar {
+  width: 0px;
+  height: 0; /* width of the entire scrollbar */
+}
+.leftContainer {
+  width: 80%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.leftContainer::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.leftContainer2 {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.leftContainer2::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.storiesLogo {
+  width: 65px;
+  height: 62px;
+  border-radius: 70px;
+}
+
+.circle {
+  position: absolute;
+  top: 0px;
+  transform: rotate(-90deg);
+}
+
+.dialogRow {
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+  justify-content: space-evenly;
+}
+.dialog {
+  width: 15vw;
+  height: 10vh;
+  background-color: #16181a;
+  border-radius: 15px;
+}
+.svgcirclebg {
+  fill: none;
+}
+
+.svgcircle {
+  fill: none;
+  animation: dash 3s linear;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 230;
+  }
+}
+.rowNull {
+  display: flex;
+  flex-direction: row;
+  width: 57vw;
+  justify-content: space-between;
+  margin-left: 2vw;
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+  font-family: "Poppins";
+}
+.date {
+  font-size: 13px;
+  font-weight: 100;
+  color: #abbbc2;
+}
+.singleRow {
+  display: flex;
+  flex-direction: row;
+}
+.horizontal {
+  width: 62vw;
+  border-bottom: 1px solid #393c49;
+  margin: 1% 2%;
+}
+.storiesDiv {
+  margin: 0 5px;
+  padding-top: 4px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.absoluteDiv {
+  position: absolute;
+  right: 21vw;
+  bottom: -1px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.floatingButton {
+  color: white;
+  background-color: #16181a;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0.2em 0;
+  font-weight: 400;
+}
+.quickAction {
+  font-size: 15px;
+  opacity: 0.9;
+  font-weight: 400;
+}
+.quickActionModal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.quickActionModalMain {
+  width: 40vh;
+  height: fit-content;
+  background-color: #16181a;
+  margin-right: 20vw;
+  border-radius: 10px 10px 0 0;
+  animation: sitaram 0.5s linear;
+  z-index: 9999999;
+}
+.absoluteDiv1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+@keyframes sitaram {
+  from {
+    margin-bottom: -30em;
+  }
+}
+.rightContainer {
+  width: 20%;
+}
+.name {
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+  margin-top: 1vh;
+  text-transform: capitalize;
+}
+.white {
+  color: black;
+}
+
+.twoDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.rightTwo {
+  width: 60%;
+}
+
+.leftTwo {
+  width: 39%;
+}
+
+.splitDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 2vh;
+  justify-content: space-between;
+}
+.splitLeft {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+}
+.splitRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+.storiesDiv2 {
+  width: 80%;
+}
+.rightDiv {
+  width: 20%;
+}
+
+.secondRow {
+  display: flex;
+  width: 100%;
+}

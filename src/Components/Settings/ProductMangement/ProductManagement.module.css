@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    margin-top: 8vh;
+    width: 100%;
+    background-color: #16181A;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins';
+    flex-direction: column;
+}
+.container::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+.table{
+    width: 98%;
+    display: flex;
+    margin-top: 52px;
+    margin-left: 6%;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+}
+.hr{
+    width: 91%;
+    margin-left: 6%;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.207);
+    margin-top: 2%;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    margin: 3% 4%;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 22%;
+    border-radius: 18px;
+    height: 120%;
+    border: 1px solid rgba(220, 220, 220, 0.316);
+    margin-right: 4%;
+}
+.image{
+    width: 30%;
+}
+.image2{
+    width: 100%;
+}
+
+.text{
+    font-size: min(22px,1.1vw);
+    margin-top: 12px;
+}
+.text2{
+    font-size: min(18px,0.8vw);
+    color: gray;
+}
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ea7c6941;
+    height: 18%;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 6%;
+    color: #EA7C69;
+}

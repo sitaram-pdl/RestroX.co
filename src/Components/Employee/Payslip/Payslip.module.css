@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    background-color: #16181A;
+    width: 100%;
+    height: calc(100vh - 90px);
+    border-radius:20px;
+    font-family: 'Poppins';
+    flex-direction: column;
+    position: relative;
+    color: rgb(204, 200, 200);
+}
+
+.topRow{
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:1vh;
+}
+.btnBackground{
+    display: flex;
+    background-color: #202326;
+    font-size: 0.8em;
+}
+
+.btn{
+    padding: 0.6em;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    margin: 1em 0;
+    font-family: 'Poppins';
+    
+}
+.logoDiv{
+    width: calc(95% - 2em);
+    display: flex;
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 0.7em;
+    font-weight: 200;
+    justify-content: space-between;
+}
+.logo{
+    width: 130px;
+    margin-bottom: 1em;
+}
+
+.person{
+    margin-top: 1em;
+}
+.highlight{
+    font-weight: 600;
+}
+.name{
+    font-size: 1.8em;
+}
+.listDiv{
+    width: calc(95% - 2em);
+    display: flex;
+    margin-left: 2em;
+    margin-top: 3em;
+    font-size: 0.7em;
+    font-weight: 200;
+    justify-content: space-between;
+}
+.earningTitle{
+    font-size: 1.7em;
+}
+.list{
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+.left{
+    width: 45%;
+    padding: 0 5% 0 0;
+}
+.due{
+    width: 20%;
+    text-align: end;
+}
+.lastRow{
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:2vh;
+    font-size: 0.9em;
+}
+.net{
+    margin-left: 2em;
+    font-size: 0.9em;
+}

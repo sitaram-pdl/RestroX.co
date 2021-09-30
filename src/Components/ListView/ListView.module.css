@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color:white ;
+    font-family: 'Poppins';
+    margin-top: 21px;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.box{
+    width: 28vw;
+    height: 20vh;
+    margin: 18px 2vw;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.head{
+    width: 28vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.white{
+    color: black !important;
+}
+.white2{
+    color: rgb(83, 83, 83) !important;
+    border-color: rgb(221, 221, 221) !important;
+    
+}
+.head2{
+    width: 28vw;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #2D303E;
+    border-radius: 10px;
+    color: #cfcdcd;
+    margin-top: 8px;
+}
+.number{
+    width: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    color: #b4b5b8;
+}
+.title{
+    margin-left: 1.5vw;
+    font-size: 24px;
+    width: 15vw;
+}
+.qty{
+    width: 8vw;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.title2{
+    margin-left: 1.5vw;
+    font-size: 15px;
+    width: 15vw;
+}
+.qty2{
+    width: 8vw;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.price2{
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+.price{
+    font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+}

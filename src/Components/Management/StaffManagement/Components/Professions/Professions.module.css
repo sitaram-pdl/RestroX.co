@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+
+  left: 121px;
+  top: 66px;
+  display: flex;
+  background: #16181a;
+  border-radius: 15px;
+  color: #f6f6f6;
+  border: 1px solid rgba(220, 220, 220, 0.151);
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 2%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 1em 0 0 0.4em;
+}
+.title {
+  font-weight: 500;
+  width: 85%;
+
+  margin-left: 1em;
+}
+.dropdown {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.barcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+
+.barcontain {
+  width: 50%;
+  height: 10em;
+  display: flex;
+  flex-wrap: wrap;
+
+  overflow: hidden;
+  margin-top: 1em;
+}
+
+.legendContain {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0.4em 0 0 2em;
+}
+.dotgreen {
+  width: 0.7em;
+  height: 0.7em;
+  border: 0.5px solid #1ab846;
+  border-radius: 10px;
+  margin: 0.5em 1em;
+  background-color: #1ab846;
+}
+.dotgrey {
+  width: 0.7em;
+  height: 0.7em;
+  border: 0.5px solid #4e4f52;
+  border-radius: 10px;
+  margin: 0.5em 1em;
+  background-color: #4e4f52;
+}
+.legend {
+  display: flex;
+  flex-direction: row;
+}

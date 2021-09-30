@@ -1,0 +1,102 @@
+.maincontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.text1 {
+  font-size: 17px;
+
+  color: #ffffff;
+  opacity: 0.8;
+}
+.itm {
+  color: white;
+
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 0.1em 1em;
+  margin-right: 0.5em;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.9;
+}
+.itemcontainer {
+  display: flex;
+
+  flex-direction: row;
+
+  border-radius: 10px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.active {
+  background-color: #79b3ff;
+  position: relative;
+}
+
+.image {
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 15px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.small2 {
+  color: rgb(190, 181, 181);
+  font-size: 11px;
+  line-height: 140%;
+  /* or 15px */
+  display: flex;
+  letter-spacing: -0.3px;
+
+  color: rgba(255, 255, 255, 0.42);
+}
+.small1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+.stafflistcontain {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  margin: 0.7em 0.7em;
+  display: flex;
+  flex-direction: row;
+  padding: 0.6em;
+}
+
+.staffmaincontain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.viewallstaffs {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-top: 0.7em;
+}
+.headerleft {
+  width: 45%;
+  font-size: 19px;
+  margin-left: 1em;
+}
+.headercontain {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.headerright {
+  width: 48%;
+  font-size: 16px;
+  text-align: right;
+  margin-right: 1em;
+}

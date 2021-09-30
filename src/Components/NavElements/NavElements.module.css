@@ -1,0 +1,83 @@
+.stories{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    width: 65vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+.stories::-webkit-scrollbar {
+	width: 0px;
+	height: 0;			   /* width of the entire scrollbar */
+  }
+.leftContainer{
+    width: 65vw;
+    height: 100vh;
+ }
+ .storiesLogo{
+     width: 3vw;
+     height: 3vw;
+     border-radius: 70px;
+     
+    }
+   
+    .circle {
+        position: absolute;
+        top: -0.5vw;
+        transform: rotate(-90deg);   
+    } 
+    .dialogRow{
+        display: flex;
+        flex-direction: row;
+        width: 65vw;
+        justify-content: space-evenly;
+    }
+    .dialog{
+        width: 15vw;
+        height: 10vh;
+        background-color: #16181A;
+        border-radius: 15px;
+    }
+    .svgcirclebg {
+        fill: none;
+    }
+    .name{
+        color:rgb(222, 243, 247);
+        font-family: 'Poppins';
+        font-size: 12px;
+        margin-top: 1.2vw;
+        text-transform: capitalize;
+    }
+    .svgcircle {
+        fill: none;
+        animation: dash 3s linear;
+    }
+    @keyframes dash {
+        from {
+          stroke-dashoffset: 230;
+        }
+      }
+      .storiesDiv{
+        margin:12px 0.6vw ;
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 4vw;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 18vw;
+        justify-content: center;
+        margin-top: 1vh;
+        overflow-y: scroll;
+    }
+    .container::-webkit-scrollbar{
+        height: 0;
+    }
+    .white{
+        color: black;
+    }

@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+  width: 76%;
+}
+
+.header {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0 0 0 0.5em;
+}
+.titleleft {
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.884);
+}
+.titleright {
+  display: flex;
+  margin-top: 0.3em;
+}
+
+.icon {
+  width: 18px;
+  height: 21px;
+  margin: 0.3em 1em 0 0;
+}
+.icon1 {
+  margin: 0.5em 1em 0 0;
+}
+.title2 {
+  width: 100%;
+}
+.text1 {
+  font-style: normal;
+
+  font-size: 14px;
+  color: #ffffff;
+
+  opacity: 0.6;
+  margin-left: 0.8em;
+  margin-bottom: 0.2em;
+}
+.slide {
+  width: 100%;
+  overflow: scroll;
+}
+.mapContain {
+  width: max-content;
+  display: flex;
+  cursor: grab;
+}
+.mapContain ::-webkit-scrollbar {
+  width: 0;
+}
+.slide::-webkit-scrollbar {
+  width: 0;
+}

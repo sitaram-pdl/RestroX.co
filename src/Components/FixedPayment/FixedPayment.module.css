@@ -1,0 +1,26 @@
+.container{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 94vh;
+    width: 60vw;
+    background-color: #16181A; /* Here*/
+    z-index: 10000;
+    border-radius: 40px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    animation: swipe 0.8s;
+    -webkit-animation: swipe 0.8s;
+}
+@keyframes swipe{
+    from{
+        right: -25vw;
+
+    }
+    to{
+        visibility: 1;
+    }
+}
+.white{
+    background-color: white !important;
+}

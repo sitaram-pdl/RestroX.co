@@ -1,0 +1,90 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 0.2em 0.6em 1em;
+  background-color: #16181a;
+  border-radius: 10px;
+}
+.leftcontainer {
+  width: 32%;
+  overflow: hidden;
+  padding: 0 1em 1em 0;
+  border-radius: 10px 0 0 10px;
+}
+.topRow {
+  width: 96%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.topLeft {
+  display: flex;
+}
+
+.summary {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 18px;
+  font-weight: 600;
+}
+.dropdowncontrol {
+  width: 4vw;
+}
+.leftBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cashFlowContain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cashButton {
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  background-color: #202326;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0.4em 0 0.4em;
+}
+.cashin {
+  background-color: #fb5457;
+}
+.cashout {
+  background-color: #139511;
+}
+
+.rightContainer {
+  background-color: #16181a;
+  width: 68%;
+  overflow: hidden;
+  padding: 0 1em 0em 1em;
+  border-radius: 0 10px 10px 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.24);
+  display: flex;
+  flex-direction: column;
+}
+.tableHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 10px;
+  padding: 0.2em 0;
+}
+.tableData {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.6em 0;
+}
+.tableContain {
+  width: 100%;
+}

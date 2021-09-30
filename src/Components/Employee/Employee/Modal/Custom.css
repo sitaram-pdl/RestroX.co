@@ -1,0 +1,23 @@
+#select .react-date-picker{
+    width: 100%;
+    height: 3em;
+}
+#select .react-date-picker__wrapper{
+    border:none
+    
+}
+#select .react-calendar{
+    background-color: #16181a !important;
+    font-size: 1.1em;
+}
+#second .Dropdown-placeholder {
+    font-size: 1.2em;
+}
+
+#select2 .react-date-picker{
+    width: 100%;
+    height: 3em;
+}
+#select2 .react-date-picker__wrapper{
+    border:none
+}

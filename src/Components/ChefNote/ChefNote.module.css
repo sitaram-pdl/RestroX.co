@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    scroll-snap-align: start;
+    margin-top: 10%;
+}
+
+.title{
+    color: white;
+    margin-left: 5%;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.black{
+    color: #c2c1c1  !important;
+}
+
+.modal{
+    font-size: 11px;
+    margin: 3% 10%;
+    color: rgb(197, 193, 193);
+    letter-spacing: 2px;
+}

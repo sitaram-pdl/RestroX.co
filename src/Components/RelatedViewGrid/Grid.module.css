@@ -1,0 +1,139 @@
+  .pallete{
+        width:50%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        margin:35px 2%;
+        align-items: center;
+    }
+    .container{
+        scroll-snap-align: start;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: min-content;
+        
+    }
+    .background{
+        color: white;
+        background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.1),black) ;
+        width: 40%;
+        height: 220px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        color:white;
+        margin: 3vh 0 5vh 5% ;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+    .black{
+        background-image:linear-gradient(to left,rgba(255, 255, 255, 0.3),rgb(255, 255, 255)) ;
+        color: #3C3C3C;
+        box-shadow: 10px 10px 30px gainsboro;
+    }
+
+    .blackText{
+        background-color: white !important;
+        color: #3C3C3C  !important;
+    }
+    .blackText2{
+        color: #3C3C3C  !important;
+    }
+    .quantity{
+        color: white;
+        width: 18px;
+        height: 18px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .button{
+        color: white;
+        border-radius: 100px;
+        box-shadow: 1px 1px 10px gray;
+        width: 19px;
+        height: 19px;
+        align-items: center;
+        margin: 0 2%;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+    }
+    .img{
+        width: 130px;
+        height: 130px;
+        border-radius: 100px;
+        margin-top: -50px;
+    }
+    .itemName{
+        font-size: 17px;
+        font-weight: 800;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    
+    }
+    .time{
+        font-size: 10px;
+        margin-left: 3px;
+    }
+    .ratingRow{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        margin-top: 4%;
+        justify-content: center;
+        
+    }
+    .rating{
+        margin-left:5%;
+        display: flex;
+        flex-direction: row;
+     }
+     .ratingNumber{
+         margin-left: 1px;
+     }
+    .price{
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 5%;
+        color: #B88736;
+    }
+    .itemDesc{
+        margin-top: 8%;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 38%;
+        overflow: hidden;
+    }
+    .timeBar{
+        display: flex;
+        flex-direction: row;
+    }
+    .toggleBar{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        height: 30px;
+        margin-top: 9%;
+        justify-content: space-evenly;
+    }
+    .lastList{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+        align-items: center;
+        margin-top: 5%;
+    }
+    

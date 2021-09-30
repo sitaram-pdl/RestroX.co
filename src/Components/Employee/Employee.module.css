@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    color: white;
+    width:90vw;
+    margin-top: 90px;
+}
+.employee{
+    display: flex;
+    width: 21vw;
+      height: 100vh;
+     margin-right: 1vw;
+    color: white;
+    font-family: 'Poppins';
+    flex-direction: column;
+
+}
+.list{
+    margin-right: 2vw;
+    cursor: pointer;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    height: 100%;
+    overflow: hidden;
+}
+.red{
+    color: tomato;
+}
+
+.modal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20002;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

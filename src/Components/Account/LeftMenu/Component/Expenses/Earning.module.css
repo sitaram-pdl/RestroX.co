@@ -1,0 +1,78 @@
+.container {
+  height: 146px;
+  left: 121px;
+  top: 66px;
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 2%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 1em 0 0 0.4em;
+}
+.title {
+  font-weight: 500;
+  width: 85%;
+  color: rgba(255, 255, 255, 0.712);
+  margin-left: 1em;
+}
+
+.barcontainer {
+  width: 100%;
+  display: flex;
+}
+.leftContain {
+  margin-top: 1em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5em;
+}
+.rightContain {
+  width: 40%;
+  display: flex;
+}
+.text1 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.671);
+  line-height: 3px;
+}
+
+.text2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.932);
+}
+.text3 {
+  margin-top: 0.6em;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.671);
+}
+.text4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.absoluteBar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.relative {
+  position: relative;
+}

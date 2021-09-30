@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  .leftContainer {
+    width: 16vw;
+    height: 100vh;
+  }
+  .rightContainer {
+    display: flex;
+    overflow-y: scroll;
+    width: 78.2vw;
+    margin-left:0.6vw;
+  }
+  .rightContainer::-webkit-scrollbar {
+    height: 0;
+  }
+  

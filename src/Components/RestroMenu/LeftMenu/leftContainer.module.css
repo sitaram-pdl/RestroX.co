@@ -1,0 +1,116 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.containerComponent{
+    width: 25%;
+    background-color: #16181A;
+     border-radius: 10px;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    color: rgb(199, 202, 204);
+    margin: 0.3em;
+}
+.expand{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.title{
+    font-size: 0.9em;
+    
+letter-spacing: 0.3px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    color: rgb(199, 202, 204);
+    width: 100%;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    font-size: 0.8em;
+}
+.inputDiv{
+    border: 1px solid rgba(240, 248, 255, 0.11);
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 0.7em;
+    background-color: #202326;
+    color: #76A9FF;
+    font-size: 0.7em;
+}
+.time{
+    display: flex;
+    margin-top: 1em;
+    
+    color: #7A7585;
+    font-size: 0.7em;
+}
+
+.timeRight{
+    margin-left: 0.7em;
+}
+.timeMain{
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+.image{
+    width: 2em;
+    border-radius: 50%;
+}
+
+.buttonDiv{
+    margin-top: auto;
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn{
+    background-color: #76A9FF;
+    padding: 0.3em 3em;
+    border-radius: 10px;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.timeDiv{
+    margin-bottom: 1em;
+}
+
+.slider{
+    background-color: #626262;
+    display: flex;
+    border-radius: 10px;
+}
+
+.slider div{
+    padding: 0.3em 1em;
+    font-size: 0.8em;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.color{
+    background-color: #EE3E4B;
+   
+}
+.upDown{
+    display: flex;
+    font-size: 1em;
+}
+.upDown div{
+    padding: 0 1em;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #202326;
+  position: fixed;  
+}
+.marginIndex{
+  /* margin-left: 15vw !important; */
+}
+.rightContainer{
+  /* margin-left: 7.5vw; */
+}
+
+.white{
+  background-color: #F2F2F2;
+  
+}
+
+.modals{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 15000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width:600px){
+  .container{
+    display: none;
+  }
+}

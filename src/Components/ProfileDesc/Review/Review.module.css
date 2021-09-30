@@ -1,0 +1,209 @@
+.topRow{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondRow{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -22px;
+    margin-bottom: 42px;
+    color: rgb(255, 255, 255);
+}
+.text3{
+    width: 200px;
+   text-align: center;
+}
+
+.image{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.svg {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.svgcirclebg {
+    fill: none;
+}
+.badges{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    bottom: 19%;
+    color: goldenrod;
+    left: 36%;
+    font-weight: 900;
+}
+.svgcircle {
+    fill: none;
+    transition: stroke-dashoffset 850ms ease-in-out;
+    animation: easyBoy 2s linear;
+    -webkit-animation:easyBoy 2s linear ;
+}
+@keyframes easyBoy{
+    0%{
+        stroke-dashoffset:238.754
+    }
+}
+@-webkit-keyframes easyBoy{
+    0% {
+        stroke-dashoffset:238.754
+    }
+}
+.svgcircletext {
+   font-size: 14px;
+    text-anchor: middle;
+    fill: rgb(191, 192, 190);
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 79%;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.profileImage{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    object-fit: cover;
+    filter:grayscale(100%)
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 100%;
+    background-color:#16181A ;
+    padding-bottom: 10vh;
+}
+.container::-webkit-scrollbar{
+    width: 0;
+}
+.hr{
+    width:79%;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.151);
+    margin-top: 30px;
+}
+.hr2{
+    width:70%;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.151);
+    margin-top: 13px;
+}
+
+.reviews{
+    display: flex;
+    width: 90%;
+    margin-top: 29px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 270px;
+    height: 350px;
+    border: 1px solid rgba(59, 59, 59, 0.397);;
+    box-shadow: 5px 8px 7px #121318;
+    border-radius: 10px;
+  margin-right: 2.5vw;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    z-index: 2000;
+}
+.title{
+    font-size: 17px;
+    margin: 22px 0 0 12px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.932)    ;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.img{
+    margin-right: 10px;
+    margin-left: -35px;
+}
+.titleDesc{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0px 0 0 52px;
+    color: rgb(172, 155, 113);
+    height: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.titleReview{
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0px 19px 0 52px;
+    color: rgb(151, 151, 151);
+    height: 104px;
+    margin-bottom: 20px;
+   
+}
+.titleDate{
+    font-size: 11px;
+    margin: 2px 7px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    text-align: right;
+}
+.love{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 19px;
+    color: tomato;
+}
+.text2{
+    color: #0576aa;
+    margin-left: 4px;
+    font-size: 15px;
+}
+.text{
+    color: tomato;
+    margin-left: 4px;
+    font-size: 15px;
+}
+.reactions{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 12px;
+
+}
+.reply{
+    color: #ffffff;
+    font-size: 14px;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 19px;
+    color: #0576aa;
+}

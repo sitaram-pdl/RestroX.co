@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+}
+.division{
+    width: 100%;
+    height: 50%;
+    background-color: #16181A;
+    border-radius: 18px;
+    margin-top: 1vh;
+    overflow: hidden;
+}
+.head{
+    width: 95%;
+    margin: 1vw 0 0 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    width:4vw;
+    justify-content: space-between;
+}
+
+.text{
+ margin-left: 1vw;
+ width: 15vw ;
+overflow: hidden;
+}
+.label{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 18vw;
+    border:1px solid rgba(150, 150, 150, 0.315);
+    border-radius: 10px;
+    padding: 0.6vw;
+    margin: 2vw 0 0 2vw;
+}
+.image{
+    border-radius: 50%  ;
+}
+.lastline{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+.waiter{
+    background-color: rgb(82, 76, 76);
+    padding: 0 4px 0 4px;
+    margin:0 5px 0 5px;
+}
+.boxOfUsers{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 88%;
+}
+.boxOfUsers::-webkit-scrollbar{
+    height: 0;
+}

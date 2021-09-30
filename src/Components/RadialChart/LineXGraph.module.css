@@ -1,0 +1,64 @@
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:1% ;
+    background-color: #16181A;
+    align-items: center;
+    font-family: "Poppins";
+   
+    
+}
+.graph{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 1vw;   
+    border-bottom:1px solid #2D2F40;
+    padding: 2%;
+     
+}
+.title{
+    font-weight: 500;
+    color: white;
+}
+.picker{
+    background-color: #16181A;
+   
+}
+
+.graphRow{
+    width: 100%;
+    display: flex;
+}
+.graphDesc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5%;
+    background-color: yellow;
+}
+.descRow{
+    display: flex;
+    align-items: center;
+   font-size: 0.8em;
+   color: grey;
+   margin: 2%
+}

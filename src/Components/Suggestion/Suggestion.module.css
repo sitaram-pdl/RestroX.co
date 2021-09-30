@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    height: calc(100vh - 90px);
+    width: 100%;
+    margin-top: 90px;
+    background-color: #16181A;    
+    border-radius: 20px;
+    font-family: 'Poppins';
+    flex-direction: column;
+    color: aliceblue; 
+    align-items: center;
+}
+.title{
+    margin: 2vw 0 0 2vw;
+    font-size: 26px;
+   width: 93%;
+}
+.toDiv{
+    margin: 2vw 0 0 3vw;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.inputDiv{
+    display: flex;
+    margin-left: 1vw;
+    width: 90%;
+}
+
+.bold{
+    font-weight: 900;
+}
+.input{
+    border: none;
+    background-color: transparent;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    width: 100%;
+    font-weight: 900;
+    color: rgb(225, 205, 205);
+}
+.background{
+    background-color:#202326;
+    height: 92%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:92vh;
+    margin-top: 1vh;
+    font-family: 'Dancing Script';
+    overflow: hidden;
+    transition: width 1s ,height 1s;
+    position: relative;
+    padding: 2px;
+    border-radius: 20px;
+   
+}
+.description{
+    width:90%;
+    height: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Dancing Script';
+    margin-top: 2vh;
+    margin-left: 5%;
+}
+
+.right{
+    content:"";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-style: solid;
+    border-width: 0 50px 50px 0;
+    border-color: #202326 #16181A;
+    transition: all ease 1s;
+    display: none;
+    
+}
+.left{
+    display: none;
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: #202326 #16181A;
+    transition: all ease 1s;
+}
+.plane{
+    opacity: 0;
+    height: 0;
+    width: 400px;
+    display: flex;
+}
+.image{
+    width: 100%;
+}
+.black{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 2vw;
+    width: 20%;
+    background-color: tomato;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 1%;
+}
+.button2{
+    margin-top: 2vw;
+    width: 20%;
+    background-color: rgb(8, 112, 116);
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 1%;
+}
+.lastRow{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}

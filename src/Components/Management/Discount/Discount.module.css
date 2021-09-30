@@ -1,0 +1,196 @@
+.container {
+  width: 100%;
+  height: calc(100%-80px);
+  background-color: #16181a;
+  border-radius: 20px;
+  margin-top: 80px;
+  padding: 1em;
+}
+.topLeft {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.topRow {
+  display: flex;
+  justify-content: space-between;
+}
+.topRight {
+  width: 50%;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  color: white;
+}
+.search {
+  width: 80px;
+}
+.searchDiv {
+  border: 1px solid rgba(240, 248, 255, 0.101);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  padding: 0em 1em;
+}
+
+.input::placeholder {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.menu {
+  border: 0px;
+  border-radius: 10px;
+  width: 7vw;
+  display: flex;
+  height: 2.5em;
+  background-color: rgba(240, 248, 255, 0.101);
+  padding-top: 0.5em;
+  padding-left: 10px;
+  margin-inline: 10px;
+  align-items: left;
+  opacity: 0.7;
+}
+
+.menuicon {
+  margin-right: 6px;
+}
+.hr {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+  padding: 0.3em;
+}
+
+.mapcontain1 {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+.list1 {
+  padding: 0.3em 1em;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1.7em;
+  border-radius: 10px;
+}
+.selectedList {
+  background-color: #202326;
+}
+.mapContain2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 0 0 0;
+}
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 10px;
+  margin: 2em 1em 0 0;
+  padding: 0.7em 0 0 0.7em;
+  background-color: #202326;
+}
+.boxTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.7em;
+}
+.boxTopLeft {
+  width: 70%;
+}
+.topBoxText1 {
+  display: flex;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #ffffffe1;
+}
+.topBoxText4 {
+  display: flex;
+  font-size: 19.5px;
+  font-weight: 400;
+  color: #ffffffe1;
+  line-height: 24px;
+  margin-bottom: 0.4em;
+}
+.topBoxText2 {
+  display: flex;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #ffffff70;
+}
+.boxTopRight {
+  display: flex;
+  color: #ffffffbe;
+}
+.iconBox {
+  font-size: 25px;
+  margin-top: 0.3em;
+}
+.boxActive {
+  color: rgba(255, 255, 255, 0.719);
+}
+.status {
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center;
+  margin: 0 0 0 0.6em;
+  padding: 0.1em 1.3em;
+}
+.active {
+  background-color: rgba(0, 255, 255, 0.644);
+}
+.expierd {
+  background-color: rgba(255, 8, 0, 0.699);
+}
+.scheduled {
+  background-color: rgba(255, 238, 0, 0.644);
+}
+.hr {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.11);
+  width: 96%;
+}
+
+.topBoxText3 {
+  color: #ffffff67;
+  margin-left: 0.4em;
+}
+.boxBot {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.7em;
+}
+.boxBot1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.7em;
+}
+.orderImage {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  overflow: scroll;
+  padding-left: 0.5em;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+.orderImage::-webkit-scrollbar {
+  width: 0px;
+  height: 0; /* width of the entire scrollbar */
+}
+.image {
+  width: 2.4em;
+  object-fit: cover;
+  margin-left: -0.5em;
+  border-radius: 50px;
+}

@@ -1,0 +1,219 @@
+.container {
+  width: 100%;
+  background-color: #16181a;
+  height: calc(100vh - 90px);
+
+  border-radius: 30px 0 0 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+.title {
+  margin: 2vh 1vw;
+  color: rgba(240, 248, 255, 0.795);
+  font-weight: 500;
+  font-size: 20px;
+}
+.selector {
+  width: 20vw;
+  display: flex;
+  margin-left: 1em;
+}
+
+.box {
+  padding: 1px 1vw;
+  border: 1px solid #ea7c69;
+  margin-left: 8px;
+  background-color: #ea7c69;
+  color: white;
+  border-radius: 5px;
+  font-size: min(13px, 0.8vw);
+}
+.white {
+  background-color: white;
+  color: black !important;
+}
+.white2 {
+  background-color: white;
+  color: rgb(102, 100, 100) !important;
+}
+.box2 {
+  padding: 1px 1vw;
+  border: 1px solid #888888;
+  margin-left: 8px;
+  background-color: none;
+  color: #888888;
+  border-radius: 8px;
+  font-size: min(13px, 0.8vw);
+}
+.lowerDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  align-items: center;
+}
+.textField {
+  display: flex;
+  width: 15vw;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  margin: 0 1vw 0 1vw;
+  background-color: #202326;
+  height: 34px;
+}
+.input {
+  border: none;
+  background-color: #202326;
+  width: 15vw;
+  color: #889898;
+  font-size: 12px;
+  border-radius: 8px;
+  margin: 0 0 0 1em;
+}
+.input:focus {
+  outline: none;
+}
+.legend {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  margin-top: 2vh;
+  color: aliceblue;
+  font-weight: 500;
+  align-items: center;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+.item {
+  width: 10vw;
+  margin-left: 1vw;
+}
+.item1 {
+  width: 14vw;
+  margin-left: 1vw;
+}
+
+.qty {
+}
+.qty2 {
+  width: fit-content;
+  margin: 0 0.3vw;
+  border-radius: 4px;
+  border: 1px solid #393c49;
+  text-align: center;
+  background-color: #202326;
+  height: fit-content;
+  padding: 0.2em 0.8em;
+}
+.qty3 {
+  background-color: #f2f2f2 !important;
+  color: #606060;
+  border: 1px solid #f2f2f2;
+}
+.price {
+  width: 4vw;
+}
+.price2 {
+  width: 6vw;
+  font-size: 14px;
+  font-weight: 200;
+}
+.priceDesc {
+  opacity: 0.7;
+  font-size: 12px;
+  font-weight: 200;
+}
+.desc {
+  opacity: 0.8;
+  font-size: 12px;
+  margin-left: 0.6vw;
+  font-weight: 400;
+}
+.descText {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 6vw;
+  text-overflow: ellipsis;
+}
+.image {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.rowDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 18vw;
+  margin-left: 1vw;
+  color: #abbbc2;
+  margin-top: 12px;
+}
+.remove {
+  border: 1px solid #f06c38da;
+  border-radius: 5px;
+  height: 24px;
+  padding: 3px 6px;
+}
+.itemsDiv {
+  display: flex;
+  flex-direction: column;
+  height: 61vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-bottom: 2em;
+}
+.hr {
+  border-top: 1px solid #393c49;
+  margin-left: 0.2vw;
+  margin-bottom: 2vh;
+}
+.itemsDiv::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.continue {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  color: white;
+}
+
+.button {
+  margin-top: 12px;
+  border-radius: 7px;
+  width: 18vw;
+  height: 38px;
+  background-color: #ea7c69;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+.marginTop {
+  margin-top: 1.3em;
+}
+input::placeholder {
+  margin-left: 1em;
+}
+.lowestDiv1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.plus {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.911);
+  padding: 0em 0;
+}
+.displayFlex {
+  display: flex;
+  margin: 0 1em;
+}

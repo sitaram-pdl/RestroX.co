@@ -1,0 +1,39 @@
+.name{
+    display: flex;
+    margin-left: 2vw;
+    font-weight: 900;
+    margin-top: 22px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+    padding-bottom: 12px;
+}
+.column{
+    margin-top: 12px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    cursor: default;
+}
+
+.switch{
+    display: flex;
+    margin-right: 18px;
+   
+    
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logo{
+    width: 40px;
+    margin-left: 60px;
+}
+.select{
+    width: 15vw;
+}
+.left{
+    display: none;
+    flex-direction: column;
+}

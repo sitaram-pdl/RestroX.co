@@ -1,0 +1,141 @@
+.container{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.secondRow{
+    display: flex;
+    width: 90%;
+    margin-top: 2em;
+    align-items: center;
+
+}
+
+.price{
+    margin-left: auto;
+    font-size: 1.6em;
+    color: gray;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 1.6em;
+    color: gray;
+}
+
+.img{
+    width: 3.5em;
+    height: 3.5em;
+    margin-right: 0.6em;
+    object-fit: cover;
+}
+.lowerDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    width: calc(100%);
+    height: 100%;
+    background-color: #16181A;
+    border-radius: 0px 0px 20px 20px;
+    padding: 4em;
+}
+
+.singleRow{
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.date{
+    margin-left: 1em;
+}
+.option{
+    display: flex;
+    background-color: #16181A;
+   color: white;
+   border-radius: 20px;
+  
+}
+
+.option div{
+    padding: 0.3em 2em;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.active{
+    background-color: #5884F6;
+}
+
+.switch{
+    margin: 0 3em;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.cancel{
+    padding: 0.5em 3em ;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.done{
+    padding: 0.5em 3em;
+    margin: 0 2em;
+    border-radius: 10px;
+    background-color: #5884F6;
+}
+
+.boxType{
+    display: flex;
+    margin: 1em;
+    flex-wrap: wrap;
+ }
+ 
+ .typesRight{
+     font-size: 0.8em;
+ }
+ .items{
+     color: gray;
+ }
+ .typesImage{
+     width: 2em;
+     padding: 0 0.3em ;
+ }
+ .typesBox{
+     display: flex;
+     padding: 0.7em 2em;
+     border-radius: 10px;
+     background-color: #161616;
+     font-size: 1em;
+     margin: 0 0.5em;
+ }
+
+ .titleLower{
+     background-color: #161616;
+     display: flex;
+     width: max-content;
+     padding: 1em 2em;
+ }
+
+ .userImage{
+     width: 2.5em;
+     margin-right: 0.8em;
+     border-radius: 20px;
+ }
+
+ .icon{
+     display: flex;
+     align-items: center;
+     margin-left: 1em;
+ }

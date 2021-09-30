@@ -1,0 +1,7 @@
+.ant-progress-text {
+  color: white !important;
+  opacity: 0.8 !important;
+}
+.barcontian .ant-progress-text {
+  display: none !important;
+}

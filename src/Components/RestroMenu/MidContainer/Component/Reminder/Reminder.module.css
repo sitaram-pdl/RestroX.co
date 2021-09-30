@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  margin-top: 1em;
+  width: 23%;
+}
+
+.header {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0 0 0 0.5em;
+}
+.titleleft {
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.884);
+}
+.titleright {
+  display: flex;
+  margin-top: 0.3em;
+}
+
+.icon {
+  width: 18px;
+  height: 21px;
+  margin: 0.3em 1em 0 0;
+}
+.icon1 {
+  margin: 0.5em 1em 0 0;
+}
+.title2 {
+  width: 100%;
+}
+.text1 {
+  font-style: normal;
+
+  font-size: 14px;
+  color: #ffffff;
+
+  opacity: 0.6;
+  margin-left: 0.8em;
+  margin-bottom: 0.2em;
+}
+.mapContain {
+  width: 100%;
+}
+.mapList {
+  display: flex;
+  width: 100%;
+  padding: 0.4em 1em;
+}
+.mapBot {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  line-height: 14px;
+  font-size: 14px;
+  color: rgba(255, 246, 246, 0.336);
+}
+.mapTop {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.795);
+  letter-spacing: 0.8px;
+}
+.circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px !important;
+
+  margin: 0.8em 0.6em;
+}
+
+.green {
+  background-color: #26bc39;
+}

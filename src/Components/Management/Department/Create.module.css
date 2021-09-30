@@ -1,0 +1,173 @@
+.container {
+  display: flex;
+  background-color: #16181a;
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Poppins";
+  flex-direction: column;
+  position: relative;
+  color: white;
+  height: 100%;
+}
+.title {
+  font-size: 2em;
+  margin: 1.2em 0;
+  width: 100%;
+  text-align: center;
+}
+.row {
+  display: flex;
+  width: 94%;
+  margin: 2vw 3vw;
+}
+.name {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+}
+.inputDiv {
+  width: 90%;
+  background-color: #202326;
+  border-radius: 10px;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+.input {
+  border: none;
+  background-color: transparent;
+  height: 3.5em;
+  width: 80%;
+  border-radius: 10px;
+}
+.input:focus {
+  outline: none;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.dim {
+  color: gray;
+  margin-left: 1vw;
+  font-size: 15px;
+}
+.row2 {
+  display: flex;
+  width: 94%;
+  margin: 1vw 0vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divider {
+  margin: 0.9vw;
+}
+.divider svg {
+  margin-top: 12px;
+}
+.option {
+  width: 20%;
+  color: gray;
+  border-left: 1px solid gray;
+  text-align: center;
+}
+.input::placeholder {
+  padding-left: 1vw;
+}
+.bottom {
+  display: flex;
+  width: calc(100% - 4em);
+  justify-content: flex-end;
+  margin: 0 2em;
+  margin-top: auto;
+  margin-bottom: 3em;
+  border-top: 1px solid rgba(220, 220, 220, 0.164);
+  padding-top: 3em;
+}
+.button {
+  padding: 0.5em 5em;
+  margin-right: 2vw;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: gainsboro;
+  background-color: #418bd6;
+}
+.button2 {
+  padding: 0.5em 5em;
+  margin-right: 2vw;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: gainsboro;
+  background-color: #5e6b79;
+}
+.button1 {
+  padding: 0.5em 5em;
+  margin-right: 2vw;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  color: gainsboro;
+}
+.advDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+.adv {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  margin-left: 0.8vw;
+}
+.upload {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.file {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+}
+
+.file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.fileBtn {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-color: gainsboro;
+  padding: 1em 2em;
+  border-radius: 20px;
+  margin: 1em 3em 0 3em;
+  color: #16181a;
+  font-weight: 600;
+}
+
+.error {
+  color: tomato;
+  margin: 1.4em 3em;
+}

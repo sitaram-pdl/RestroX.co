@@ -1,0 +1,28 @@
+.semicircle-percent-value {
+  color: white !important;
+  font-size: 40px;
+  opacity: 0.6;
+}
+#barContainer .ant-progress-text {
+  display: none !important;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+
+#barContainer .ant-progress-inner {
+  background-color: rgba(128, 128, 128, 0.267);
+}
+.ant-progress-circle-trail {
+  stroke: rgba(128, 128, 128, 0.267);
+}
+
+#progressbar .ant-progress-text {
+  display: none !important;
+  font-size: 10px;
+  transform: rotate(90deg);
+}
+
+#progressbar .ant-progress-outer {
+  margin-right: 1em !important;
+  padding-right: 1em !important;
+}

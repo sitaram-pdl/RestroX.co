@@ -1,0 +1,12 @@
+#hidden .ant-progress-text {
+  display: none !important;
+}
+.ant-progress-circle-trail {
+  stroke: #1b3c2c !important;
+}
+#hidden .ant-progress-circle-trail {
+  stroke: transparent !important;
+}
+.ant-progress-circle-path {
+  stroke-linecap: square !important;
+}

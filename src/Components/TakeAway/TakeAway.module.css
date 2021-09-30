@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    background-color: #16181A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    border-radius: 10px;
+    margin: 1vh 0;
+}
+.title{
+    color: gainsboro;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 90%;
+    margin: 2vw;
+}
+.secondRow{
+    border: 1px solid #797979;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    
+    padding: 2%;
+    align-items: center;
+}
+.circle{
+    background-color: #E7C948;
+    width:3vw;
+    height: 3vw;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+.text{
+    color: white;
+    margin:0 4%;
+    font-size: 0.8em;
+    font-weight: 200;
+}
+.dot{
+    margin: 0 4%;
+    width: 0.8vw;
+    height: 0.8vw;
+    background-color: #2BC155;
+    border-radius: 50%;
+}
+.arrow{
+    color: white;
+    margin-left: 2%;
+}
+.thirdRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0;
+    color: white;
+}
+.descNumber{
+    font-size: 0.7em;
+    color: gray;
+}
+.box{
+    width: 25%;
+    border-radius: 10px;
+    border: 1px solid #7E7E7E;
+    padding: 2%;
+
+}
+.number{
+    font-size: 1.5em;
+}
+.lastRow{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    color: gray;
+    font-weight: 600;
+    padding: 3%;
+}
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.8em;
+    justify-content: center;
+    margin: 2vh 0;
+}
+.title3{
+    width: 25%;
+}
+.alternative{
+    width: 93%;
+}
+.lineBar{
+    width: 56%;
+}
+.symbol{
+    display: none !important;
+}
+.stats{
+    margin-left: 5%;
+}

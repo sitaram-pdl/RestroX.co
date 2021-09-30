@@ -1,0 +1,202 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    margin-top: 8vh;
+    background-color: #16181A;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Poppins';
+    color: #1F1D2B;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+.title{
+    margin-top: 8%;
+    color: aliceblue;
+    font-weight: 900;
+}
+.bill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 90%;
+    min-height: 90%;
+  background-color: rgba(252, 252, 252, 0.926);
+  border-radius: 12px;
+}
+.invoice{
+    letter-spacing: 2px;
+    margin-top: 12px;
+}
+.topBar{
+    margin:  3%;
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+.hr{
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+.invoice3{
+    letter-spacing: 2px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%    ;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.topBar2{
+    margin:  3%;
+    font-size: 10.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.storeName{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+.topTable{
+    width: 90%;
+    display: flex;
+
+}
+.topTable2{
+    width: 90%;
+    display: flex;
+    margin-top: 1%;
+}
+.table{
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+.sn{
+    width: 10%;
+}
+.item{
+    width: 40%;
+}
+.price{
+    width: 20%;
+}
+.qty{
+    width: 10%;
+}
+.total{
+    width: 20%;
+}
+.input{
+    width: 94%;
+    background-color:rgba(252, 252, 252, 0) ;
+    border:none;
+
+}
+.input:focus{
+   border:1px solid gray;
+    outline: none;
+    border-radius: 10px;
+}
+.addDiv{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.image{
+    height: 60%;
+    border:1px solid gainsboro;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inputFile{
+    border: none;
+    outline: none;
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    z-index: 20000;
+}
+.inputFile::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.relative{
+    width: 100%;
+    height: 100%;
+}
+.absolute{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+.subText{
+    font-size: 9px;
+    width: 100%;
+    margin-top: 2%;
+    text-align: centers;
+}
+.addButton{
+    background-color: gainsboro;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addPhoto{
+    margin-top: 10%;
+}
+.img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.559);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.image:hover .overlay{
+    display: flex;
+}

@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    color: #F6F6F6;
+    margin-top:2% ;
+    background-color: #16181A;
+    align-items: center;
+    border-radius: 20px;
+    font-family: "Poppins";
+    
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graph{
+    width: 90%;
+    display: flex;
+   height: 40vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 1vw;   
+    border-bottom:1px solid #2D2F40;
+    padding: 2%;
+     
+}
+.title{
+    font-weight: 500;
+}

@@ -1,0 +1,284 @@
+.container {
+  display: flex;
+  margin-top: 8vh !important;
+  width: 100%;
+  background-color: #16181a;
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins";
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.measuringUnitcontainer {
+  margin-top: 0.6em;
+  width: 100%;
+}
+.search2 {
+  width: 74.5vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5vw;
+  font-size: 18px;
+
+  border-radius: 5px;
+
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.753);
+  margin-top: 0.8em;
+  background-color: #202326;
+}
+
+.sn {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+  opacity: 0.75;
+}
+.sn1 {
+  width: 5%;
+  display: flex;
+
+  justify-content: center;
+  margin-top: -3px;
+  font-family: "Poppins";
+  font-size: 25px;
+  line-height: 120%;
+}
+.id {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.container {
+  margin-top: 0.6em;
+  width: 100%;
+}
+.search2 {
+  width: 74.5vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5vw;
+  font-size: 18px;
+
+  border-radius: 5px;
+
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.753);
+  margin-top: 0.8em;
+  background-color: #202326;
+}
+
+.sn {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+  opacity: 0.75;
+}
+.sn1 {
+  width: 5%;
+  display: flex;
+
+  justify-content: center;
+  margin-top: -3px;
+  font-family: "Poppins";
+  font-size: 25px;
+  line-height: 120%;
+}
+.id {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.price {
+  width: 15%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.category {
+  width: 15%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.review {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+}
+.status {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 120%;
+}
+.status1 {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+
+  line-height: 120%;
+}
+.search3 {
+  width: 74.5vw;
+  padding: 0em 0.7em;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.625);
+  margin-left: 0.5vw;
+  align-items: center;
+
+  font-size: 1em;
+}
+
+.image {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+}
+.grey {
+  background-color: rgba(172, 168, 168, 0.024);
+}
+
+.item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.price {
+  width: 15%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+
+.description {
+  width: 24%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+
+.category {
+  width: 15%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+  font-family: "Poppins";
+
+  line-height: 120%;
+}
+.review {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins";
+}
+.status {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 120%;
+}
+.status1 {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+
+  line-height: 120%;
+}
+.search3 {
+  width: 74.5vw;
+  padding: 0em 0.7em;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.625);
+  margin-left: 0.5vw;
+  align-items: center;
+
+  font-size: 1em;
+}
+
+.image {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+}
+.grey {
+  background-color: rgba(172, 168, 168, 0.024);
+}

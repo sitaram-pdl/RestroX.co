@@ -1,0 +1,209 @@
+.container {
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5em;
+}
+
+.header {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0.5em 0 0 0.5em;
+  opacity: 0.8;
+}
+.titleleft {
+  font-weight: 500;
+
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+.titleright {
+  display: flex;
+  margin-top: 0.3em;
+}
+
+.icon {
+  width: 18px;
+  height: 21px;
+  margin: 0.3em 1em 0 0;
+}
+.icon1 {
+  margin: 0.5em 1em 0 0;
+}
+.title2 {
+  width: 100%;
+}
+.text1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+
+  opacity: 0.6;
+  margin-left: 0.8em;
+  margin-bottom: 0.2em;
+}
+.costbar {
+  width: 100%;
+  display: flex;
+  padding-left: 1em;
+}
+.cost {
+  border-left: 1px solid rgba(255, 255, 255, 0.562);
+  width: 25%;
+  padding-left: 0.4em;
+  color: #f6f6f698;
+  font-size: 12px;
+  margin-bottom: 0.5em;
+}
+.overdue {
+  width: 100%;
+  background-color: #222222;
+  height: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  color: #ffffffa9;
+  padding: 0 0.5em 0 0.5em;
+}
+.overdueleft {
+  width: 95%;
+  margin-left: 1em;
+}
+.overdueright {
+  text-align: center;
+  width: 30%;
+}
+.body {
+  width: 100%;
+  margin-top: 0.4em;
+  padding: 0.3em 0.3em;
+}
+.bodymap {
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  display: flex;
+}
+.row1 {
+  width: 8%;
+  margin-left: 0.5em;
+}
+.row11 {
+  width: 45%;
+  text-align: center;
+}
+.row111 {
+  width: 25%;
+  text-align: center;
+}
+.row1111 {
+  width: 22%;
+  text-align: center;
+}
+.month {
+  background-color: #c6281c;
+  border-radius: 7px 7px 0 0;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: -0.4px;
+
+  color: #ffffff;
+  padding: 0.2em 0em;
+  text-align: center;
+  width: 4.3em;
+}
+.day {
+  background-color: #c6281c;
+  border-radius: 0 0 7px 7px;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: -0.4px;
+  width: 4.3em;
+  color: #ffffff;
+  padding: 0.2em 0em;
+  text-align: center;
+  margin-top: 0.1em;
+}
+.month1 {
+  background-color: #a04e4e;
+  border-radius: 7px 7px 0 0;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: -0.4px;
+
+  color: #ffffff;
+  padding: 0.2em 0em;
+  text-align: center;
+  width: 4.3em;
+}
+.day1 {
+  background-color: #a04e4e;
+  border-radius: 0 0 7px 7px;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: -0.4px;
+  width: 4.3em;
+  color: #ffffff;
+  padding: 0.2em 0em;
+  text-align: center;
+  margin-top: 0.1em;
+}
+.name {
+  font-weight: 500;
+  font-size: 13px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.overduemap {
+  font-weight: 400;
+  font-size: 11px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.5;
+  margin-left: 0.5em;
+}
+.rs {
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #ffffff;
+}
+.type {
+  font-weight: 400;
+  font-size: 11px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+.paybill {
+  font-weight: 500;
+  font-size: 11px;
+
+  /* identical to box height */
+
+  letter-spacing: 0.1px;
+
+  color: #ffffffcc;
+  background: #202326;
+  border-radius: 15px;
+
+  height: 25px;
+  padding: 0.3em 0.5em 0 0.5em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+}

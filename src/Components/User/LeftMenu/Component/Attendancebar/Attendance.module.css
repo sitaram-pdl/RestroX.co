@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  padding-top: 1em;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+.customer1 {
+  width: 90%;
+  padding-left: 1em;
+  color: white;
+}
+.customer2 {
+  width: 8%;
+
+  text-align: center;
+  color: white;
+}
+
+.barcontian {
+  margin-left: -1em;
+  transform: rotate(270deg);
+  margin-top: -4em;
+  border-left: 0.2px dashed rgba(255, 255, 255, 0.377);
+
+  padding-left: 0.2em;
+}
+
+.progressbar {
+  margin: 0.8em 1em;
+}
+
+.daylist {
+  display: flex;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.493);
+  padding-top: 2em;
+  margin-left: 0.4em;
+}
+.daystyle {
+  width: 13.28%;
+  text-align: center;
+  font-size: 10px;
+}

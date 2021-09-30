@@ -1,0 +1,334 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.image{
+    width: 35%;
+    height: 100%;
+}
+
+.left{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align:start ;
+}
+.rightSide{
+    width: 65%;
+}
+.logo{
+    width: 15em;
+}
+
+.restroLogo{
+    width: 100%;
+    object-fit: contain;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.question{
+    margin-left: auto;
+    color: #DCDCDC;
+    font-size: 1.2em;
+}
+.try{
+    background-color: #B80000;
+    color: white;
+    padding:1em 2em;
+    border-radius: 10px;
+    margin: 0 2.5em;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.details2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+.restroXLogo{
+    width: 8em;
+
+}
+
+.title{
+    font-size: 3em;
+    color: white;
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+.title2{
+    font-size: 3em;
+    color: white;
+    margin-top: 0.5em;
+    width: 55%;
+    font-weight: 600;
+}
+.subTitle{
+    font-size: 0.4em;
+    color: #DCDCDC;
+    margin-top: 1em;
+}
+.subTitle2{
+    font-size: 0.4em;
+    color: gray;
+    margin-top: 1em;
+}
+.loginTitle{
+    color: #DCDCDC;
+    font-size: 0.7em;
+    
+}
+
+.inputDivision{
+    width: 100%;
+    margin-top: 0.5em;
+}
+.registerInput{
+    width: 100%;
+    margin-top: 0.5em;
+}
+.registerInput input{
+    font-size: 0.4em;
+    width: 100%;
+    border: none;
+    background-color:#16181A;
+    margin: 0.5em 0 0 0;
+    border-radius: 10px;
+    height: 4em;
+    padding: 0.5em;
+}
+.registerInput{
+    width: 100%;
+    margin-top: 0.5em;
+}
+.moreInput{
+    width: 26%;
+    margin-top: 0.5em;
+}
+.moreInput input{
+    font-size: 0.4em;
+    width: 100%;
+    border: none;
+    margin: 0.5em 0 0 0;
+    border-radius: 10px;
+    height: 4em;
+    padding: 0.5em;
+}
+.inputTitle{
+    font-size: 0.4em;
+    color: #DCDCDC;
+    font-weight: 200;
+}
+.inputTitle2{
+    margin-top: 1em !important;
+    display: flex;
+    font-size: 0.4em;
+    color: #DCDCDC;
+    font-weight: 200;
+}
+.inputDivision input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.172);
+    margin: 0.5em 0 0 0;
+    border-radius: 5px;
+    height: 1.2em;
+}
+.registerInput input::placeholder{
+    font-size: 1em;
+}
+.remember{
+    font-size: 0.4em;
+    font-weight: 200;
+    
+   
+}
+.Dropdown{
+    font-size: 0.4em;
+    width: 100%;
+    border: none;
+    background-color:#16181A;
+    margin: 0.5em 0 0 0;
+    border-radius: 10px;
+    height: 4em;
+    padding: 0.5em;
+    margin-top: 1em !important;
+    display: flex;
+    align-items:center;
+}
+.remember input {
+    margin-right: 0.5em;
+}
+
+.forgetDivi{
+    display: flex;
+    margin-top: 0.5em;
+    color: #DCDCDC;
+    align-items: center;
+}
+.forgot{
+    font-size: 0.3em;
+    margin-left: auto;
+    
+}
+
+.login{
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+    background-color: #B80000;
+    font-size: 0.4em;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+.google{
+    font-size: 0.35em;
+    width: 100%;
+    background-color: #404040;
+    margin-top: 1em;
+    padding: 1em 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.gog{
+    margin-right: 0.5em;
+}
+
+.register{
+    margin-top: 2em;
+    font-size: 1.1em;
+    color: #DCDCDC;
+}
+.register2{
+    margin-top: 0.1em;
+    font-size: 1em;
+    color: #DCDCDC;
+}
+
+.mainContainer{
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    height: 100vh;
+    background-color: #202326;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.scroll{
+    display: flex;
+}
+
+.mainContainer::-webkit-scrollbar   {
+        width: 0;
+}
+
+.singleInput{
+    display: flex;
+    margin-top: 0.3em !important;
+
+}
+.singleInput div{
+    margin: 0 0.06em;
+}
+
+.terms{
+    font-size: 0.4em;
+    font-weight: 200;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;    
+   
+}
+.terms input{
+    margin-right: 1em;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.border{
+    height: 6em;
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px dotted #16181A;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 0.4em;
+    margin-top: 1em !important;
+    position: relative;
+    padding: 4em;
+    overflow: hidden;
+    
+}
+.fileInput{
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    opacity: 0;
+    left: 0;
+}
+
+.fullwidth{
+    width: 100%;
+    display: flex;
+
+}
+
+.imageProfile{
+    width: 9em;
+    height: 9em;
+    object-fit: cover;
+
+}
+
+.close{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #16181a88;
+    
+}
+
+.border:hover .close{
+    display: flex;
+}

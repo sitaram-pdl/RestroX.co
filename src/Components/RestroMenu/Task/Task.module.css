@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+display: flex;
+}
+
+.left{
+ width: 72%;
+ color: #ffffff;
+
+}
+
+.title{
+    font-size: 1.9em;
+    font-weight: 600;
+    margin-left: 0.5em;
+   color: white;
+}
+.subtitle{
+ margin-top: 0.2em;
+
+ margin-left: 1em;
+
+    color: gray;
+}
+.tasks{
+    display: flex;
+}
+.right{
+width: 27%;
+}

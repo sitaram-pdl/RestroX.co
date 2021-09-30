@@ -1,0 +1,122 @@
+.container {
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.white {
+  color: #1f1d2b !important;
+}
+.overview {
+  font-size: 1em;
+  font-weight: 600;
+  color: #cdcccc;
+  font-family: "Poppins";
+  margin: 2% 2%;
+  scroll-snap-align: start;
+}
+.stories {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 1em;
+  flex-wrap: nowrap;
+}
+.stories::-webkit-scrollbar {
+  width: 0px;
+  height: 0; /* width of the entire scrollbar */
+}
+.leftContainer {
+  width: 80%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-top: 5.8em;
+}
+.leftContainer::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none; /* width of the entire scrollbar */
+}
+.storiesLogo {
+  width: 56px;
+  height: 56px;
+  border-radius: 70px;
+}
+
+.circle {
+  position: absolute;
+  top: 0px;
+  transform: rotate(-90deg);
+}
+
+.dialogRow {
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+  justify-content: space-evenly;
+}
+.dialog {
+  width: 15vw;
+  height: 10vh;
+  background-color: #16181a;
+  border-radius: 15px;
+}
+.svgcirclebg {
+  fill: none;
+}
+
+.svgcircle {
+  fill: none;
+  animation: dash 3s linear;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 230;
+  }
+}
+.rowNull {
+  display: flex;
+  flex-direction: row;
+  width: 57vw;
+  justify-content: space-between;
+  margin-left: 2vw;
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+  font-family: "Poppins";
+}
+.date {
+  font-size: 13px;
+  font-weight: 100;
+  color: #abbbc2;
+}
+.singleRow {
+  display: flex;
+  flex-direction: row;
+}
+.horizontal {
+  width: 62vw;
+  border-bottom: 1px solid #393c49;
+  margin: 1% 2%;
+}
+.storiesDiv {
+  margin: 0 5px;
+  padding-top: 4px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.rightContainer {
+  width: 20%;
+}
+.name {
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+  margin-top: 1vh;
+  text-transform: capitalize;
+}

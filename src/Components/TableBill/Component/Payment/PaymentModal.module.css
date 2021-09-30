@@ -1,0 +1,89 @@
+.container {
+  position: absolute;
+
+  width: 100%;
+  bottom: 0vh;
+  right: 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-width: 1.75px 1.75px 0 1.75px;
+
+  border-radius: 10px 10px 0 0;
+  background-color: #16181a;
+  z-index: 999;
+}
+
+.container {
+  padding: 0.4em 0 1em 0;
+}
+
+.arrowModal {
+  margin: 0em 0 0.2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+.buttonRow1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text11 {
+  font-size: 19px;
+  margin: 0 0 0.5em 0;
+  color: white;
+}
+
+.absoluteContain {
+  z-index: 2;
+}
+
+@keyframes easy {
+  0% {
+    bottom: -20vh;
+  }
+}
+.addOrder {
+  border: 0.5px solid #ea7c69;
+  border-radius: 10px;
+  padding: 1em 1.4em;
+  font-size: 0.9em;
+  color: #ea7c69;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 1.3em;
+}
+.payment {
+  width: fit-content;
+  border-radius: 10px;
+  padding: 1em 1.4em;
+  font-size: 0.9em;
+  background-color: #ea7c69;
+  color: white;
+  height: fit-content;
+}
+.text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.534);
+}
+.hr {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.071);
+  margin: 0.5em 0;
+}
+.mapcontain {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.74);
+  padding: 0.7em 1.8em;
+  font-size: 14px;
+}
+.margin {
+  padding: 1em 0;
+}
+.name {
+  width: 10em;
+}

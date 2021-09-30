@@ -1,0 +1,76 @@
+.container{
+    width: calc(100% - 1em);
+    border-radius: 20px;
+    height: 40vh;
+    background-color: #161616;
+    margin-top: 0.5vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 2em 0em;
+}
+
+.topRow{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.topLeft{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.title{
+    font-size: 1.7em;
+    color: white;
+    font-weight: 600;
+    margin:0.5em 1.5em;
+}
+
+
+.boxType{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+ }
+ 
+ .typesRight{
+     font-size: 0.8em;
+ }
+ .items{
+     color: gray;
+ }
+ .typesImage{
+     width: 2em;
+     padding: 0 0.3em ;
+ }
+ .typesBox{
+     display: flex;
+     padding: 0.7em 2em;
+     border-radius: 10px;
+     background-color: #202326;
+     font-size: 1em;
+     margin: 0.5em 0 0.5em 0.8em;
+ }
+
+ .titleLower{
+     background-color: #161616;
+     display: flex;
+     width: max-content;
+     padding: 1em 2em;
+ }
+
+ .userImage{
+     width: 2.5em;
+     margin-right: 0.8em;
+     border-radius: 20px;
+ }
+
+ .icon{
+     display: flex;
+     align-items: center;
+     margin-left: 1em;
+ }

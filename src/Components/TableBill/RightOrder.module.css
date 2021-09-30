@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: #16181a;
+  position: relative;
+  margin-top: 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  padding: 2em 0em 0 0em;
+}
+.topTab {
+  display: flex;
+  color: rgba(255, 255, 255, 0.486);
+  font-size: 1.2em;
+  font-weight: 500;
+  width: fit-content;
+  margin-left: 0.9em;
+}
+.topRow {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 5vh;
+}
+.topRow::-webkit-scrollbar {
+  background: none !important;
+  height: 4px;
+}
+.topRow::-webkit-scrollbar-thumb {
+  background: #3e1fdb4d !important;
+}
+
+.topType {
+  font-size: 0.7em;
+  padding: 0.2em 0 0.2em 0;
+  color: rgba(255, 255, 255, 0.486);
+
+  margin-left: 1em;
+}
+.topType1 {
+  font-size: 0.7em;
+  padding: 0.5em 0 0 0;
+}
+.white {
+  color: white;
+}
+.topNumber {
+  margin: 0 0.3em;
+}
+.item {
+  width: 60%;
+}
+.item1 {
+  width: 60%;
+  display: flex;
+}
+.text1 {
+  width: 9em;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: "...";
+}
+.qty {
+  width: 15%;
+}
+.price {
+  width: 25%;
+  text-align: center;
+}
+.price1 {
+  font-size: 0.8em;
+  width: 25%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.555);
+  padding-left: 0.3em;
+  width: fit-content;
+}
+.header {
+  display: flex;
+  margin-top: 1em;
+  color: white;
+  font-size: 1em;
+  font-weight: 500%;
+  padding: 0 1.2em;
+}
+.header1 {
+  display: flex;
+
+  color: white;
+  font-size: 1em;
+  font-weight: 500%;
+  padding: 0 1.2em;
+  margin-top: 1.3em;
+}
+.hr {
+  width: 94%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+  margin: 1.5em 0 1em 0.5em;
+}
+.paddingBottom {
+  padding-bottom: 1em;
+}
+.images {
+  height: 33px;
+  width: 33px;
+  border-radius: 33px;
+  margin-right: 0.6em;
+}
+.mapLeft {
+  line-height: 18px;
+  opacity: 0.9;
+}
+.paddingLeft {
+  padding-left: 0.3em;
+}
+.totalMap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em 1.4em;
+}
+.totalName {
+  font-size: 1em;
+
+  color: rgba(255, 255, 255, 0.656);
+}
+.totalAmount {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.947);
+}
+.total {
+  margin: 2em 0 1;
+}
+
+.scroll {
+  height: 60vh;
+  overflow-y: scroll;
+  padding: 0 1em 0 1em;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.relative {
+  position: relative;
+  width: 100%;
+}

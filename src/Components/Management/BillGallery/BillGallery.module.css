@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    margin-top: 8vh;
+    width: 100%;
+    background-color: #16181A;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Poppins';
+    flex-direction: column;
+    position: relative;
+}
+.title{
+   font-size: 22px;
+}
+.row{
+    display: flex;
+    margin: 3%  5% 1% 5%;
+   align-items: center;
+ justify-content: space-between;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 89, 90);
+    padding: 1%;
+    border-radius: 10px;
+}
+.employee{
+    margin: 0vh 0 0 5vw;
+    font-size: min(20px,2vw);
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+}
+.list{
+    margin-right: 2vw;
+    cursor: pointer;
+}
+
+
+.red{
+    color: tomato;
+    border-bottom: 1px solid tomato;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5%;
+    color: gray;
+    width: 100%;
+    height: 80vh;
+    font-weight: 900;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.mainDiv::-webkit-scrollbar{
+    height: 0;
+}
+.rowImage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.image{
+    width: 190px;
+    object-fit: cover;
+    height: 240px;
+}
+.imgDiv{
+    margin-right: 1%;
+}
+.date{
+    margin: 1%;
+}
+
+.modal{
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color: honeydew;
+    z-index: 20000;
+   display: flex;
+   position: absolute;
+   width: 90%;
+   height: 70%;
+}
+.bigImage{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+}
+.close{
+    position: absolute;
+    top:1%;
+    right: 1%;
+
+}
+.fixed{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width: 100%;
+}
+.rightClick{
+    position: fixed;
+    width: 13vw;
+    height: 200px;
+    background-color: #1a1a1d;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.download{
+    margin-top: 10%;
+    
+}
+.hr{
+    border-bottom: 1px solid rgba(220, 220, 220, 0.145);
+    width: 100%;
+
+    margin-top: 10%;
+   
+}

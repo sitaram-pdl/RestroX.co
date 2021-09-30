@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+.row1 {
+  width: 32.33%;
+  margin: 0 1em 0 0;
+}
+.maincontainer {
+  width: 100%;
+}
+.row2 {
+  width: 65.66%;
+  margin: 0 0.2em 0 0;
+}
+.containerRow {
+  width: 100%;
+  display: flex;
+  margin-top: 1em;
+}
+.row22 {
+  width: 32.24%;
+  margin: 0 1em 0 1.1em;
+}
+.row3 {
+  width: 44%;
+  margin: 0 0.5em 0 0.2em;
+}
+.row33 {
+  width: 32%;
+  margin: 0 1em 0 0.5em;
+}
+.containerBottom {
+  width: 100%;
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 10em;
+}
+.row4 {
+  width: 32.24%;
+  margin: 0 1em 0 0;
+}
+.row44 {
+  width: 64.66%;
+  margin: 0 1em 0 1.1em;
+}
+
+.marginTop {
+  margin: 1em 0 0 0;
+}
+.margintop {
+  margin-top: 8px;
+}
+.row5 {
+  width: 55%;
+}
+.row55 {
+  width: 45%;
+}
+.row6 {
+  width: 34%;
+}
+.row66 {
+  width: 44%;
+  margin: 0 1em 0 1em;
+}
+.row666 {
+  width: 19%;
+}

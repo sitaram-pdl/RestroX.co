@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    font-family: 'Poppins';
+    color: white;
+    flex-direction: column;
+    margin-top: 90px;
+    height: calc(100vh - 90px);
+    background-color: #16181A;
+    width: 100%;
+    border-radius: 20px;
+}
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 2vw;
+}
+.division{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #16181A;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 84%;
+    overflow: scroll;
+}
+.division::-webkit-scrollbar{
+    height: 0;
+}
+.search{
+    width: 95%;
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 1vw 1vw 0.4vw 0;
+   
+    margin-left: 2vw;
+}
+.search2{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    background-color: #202326;
+    align-items: center;
+}
+.search3{
+    width: 95%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 11px;
+    margin-left: 2vw;
+    align-items: center;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.089);
+}
+.searchDiv{
+    width: 88%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+   background-color: #202326;
+    border-radius: 10px;
+}
+.id{
+    width: 5vw;
+    text-align: center;
+}
+.code{
+    width: 17vw;
+    text-align: center;
+}
+.offers{
+    width: 15vw;
+    text-align: center;
+
+}
+.start{
+    width: 25vw;
+    text-align: center;
+
+}
+.input{
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #202326;
+}
+.input:focus{
+    outline: none;
+}
+.logo{
+    margin-left: 1vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.rightIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 8vw;
+    justify-content: space-around;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.button{
+    width: 20%;
+    background-color: tomato;
+    padding: 20px 10px;
+    margin-right: 2vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.button1{
+    width: 20%;
+     padding: 20px 10px;
+    margin-right: 2vw;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid tomato;
+    color: tomato;
+}

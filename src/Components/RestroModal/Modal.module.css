@@ -1,0 +1,50 @@
+.container {
+  width: 90%;
+  height: 90%;
+  background-color: #16181a;
+  z-index: 22222;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  height: 90%;
+}
+
+.menu {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  color: gray;
+  padding: 0.8em 0 1.2em 1em;
+  justify-content: space-around;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px 10px 0 0;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.521);
+}
+.white {
+  color: rgba(255, 255, 255, 0.74);
+}
+.text {
+  line-height: 18px;
+  font-size: 18px;
+}
+.hr {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.356);
+}

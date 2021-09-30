@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.howcanText {
+  font-size: 42px;
+  font-weight: 500;
+  padding: 0em 0 1em 0;
+  margin-top: 2em;
+}
+.searchDiv {
+  width: 50%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  height: 5em;
+  background-color: rgba(240, 248, 255, 0.101);
+  justify-content: space-between;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  padding: 0.4em 0 0 2em;
+}
+
+.input::placeholder {
+  color: #ffffff71;
+  font-size: 28px;
+  font-weight: 400px;
+  width: fit-content;
+  height: fit-content;
+}
+.menuicon {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(255, 0, 0, 0.603);
+  border-radius: 60px;
+  color: white;
+  margin-right: 0.3em;
+  padding: 10px;
+  font-weight: 600;
+}
+.text1 {
+  font-size: 21px;
+  color: rgba(255, 255, 255, 0.541);
+  padding: 2em 0 2em 0;
+}
+.mapcontain {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 1em;
+  margin-bottom: 2em;
+}
+.box {
+  width: 23%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.151);
+  padding: 1.5em 0 0 0;
+  border-radius: 10px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0.5em 1em 0.5em 1em;
+  color: rgba(255, 255, 255, 0.658);
+}
+.imageColor {
+  color: rgba(255, 255, 255, 0.377);
+}

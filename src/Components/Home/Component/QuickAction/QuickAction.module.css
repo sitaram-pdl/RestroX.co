@@ -1,0 +1,85 @@
+.container {
+  color: white;
+  padding: 0 1em 1em 1em;
+}
+.text {
+  font-size: 19px;
+  color: white;
+  text-align: center;
+  margin: 1em 0;
+}
+.mapcontain {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list {
+  display: flex;
+  padding: 0.2em 0.8em;
+  background-color: #292c2f;
+  border-radius: 7px;
+  margin: 0.5em 0.5em 0 0;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  height: 25px;
+  width: 25px;
+}
+.text1 {
+  margin-left: 1em;
+}
+.name {
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.9;
+}
+.sub {
+  font-size: 10px;
+  opacity: 0.6;
+}
+.image2 {
+  height: 40px;
+  width: 35px;
+  margin-bottom: 0.5em;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.mapcontain2 {
+  display: flex;
+  margin: 2em 0 0 0;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1em;
+}
+.list2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+.name2 {
+  font-size: 15px;
+}
+.qrMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 0 0;
+}
+.qrCode {
+  display: flex;
+  background-color: #292c2f;
+  padding: 0.3em 1.2em;
+  border-radius: 8px;
+}
+.name3 {
+  padding: 0 1em;
+  margin: 0 0.3em 0 0.3em;
+  color: rgba(255, 255, 255, 0.693);
+}
+.selected {
+  background-color: #18161a;
+  border-radius: 5px;
+}

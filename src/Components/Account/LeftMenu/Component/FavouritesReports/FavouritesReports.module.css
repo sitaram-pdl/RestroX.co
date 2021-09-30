@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 2%;
+}
+.header {
+  display: flex;
+
+  width: 100%;
+
+  padding: 0.5em 0 0 0.5em;
+}
+.title {
+  font-weight: 500;
+  width: 90%;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+.dropdown {
+  width: 5%;
+}
+
+.barcontain {
+  width: 100%;
+
+  display: flex;
+  margin-bottom: 1%;
+  flex-wrap: wrap;
+  padding: 1em 1em 1em 1em;
+}
+
+.icon {
+  width: 18px;
+  height: 21px;
+  margin-top: 0.7em;
+}
+
+.list {
+  display: flex;
+  margin: 0.2em;
+  background-color: #202326;
+  padding: 0.3em 1em 0.2em 1.3em;
+  border-radius: 8px;
+}
+.iconstar {
+  color: rgba(54, 214, 80, 0.719);
+  margin: 0.2em 0.8em 0 0.2em;
+  height: 16px;
+}
+.name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.747);
+}

@@ -1,0 +1,446 @@
+.container{
+    margin: 90px 0 0 0;
+    display: flex;
+}
+
+
+.icons{
+    margin-left: 12px;
+   
+}
+.text{
+    font-family: 'Poppins';
+    color: aliceblue;
+    margin-left: 12px;
+    font-size: 0.7em;
+}
+.image{
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+
+    margin-left: 12px;
+}
+.moon{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10px;
+
+    margin-left: 12px;
+}
+.message{
+    margin-top: 1em;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 2em);
+   
+}
+.message2{
+    margin-top: 1em;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+.white{
+    color: black;
+}
+.dropdown{
+   display: flex;
+   flex-direction: column;
+   width: 22vw;
+   background-color: #16181A;
+   border-radius: 10px;
+   
+}
+.title{
+    font-size: 1.5em;
+    margin: 1.2em 1em;
+    display: flex;
+    width: calc(100% - 2em);
+    justify-content: space-between;
+    color: aliceblue;
+}
+.msgImg{
+    width: 3em;
+    border-radius: 50%;
+    border:4px solid gray;
+    padding: 1px;
+}
+.msgImgInner{
+    width: 3em;
+    border-radius: 50%;
+    border:4px solid gray;
+    padding: 1px;
+}
+.name{
+    margin-left: 0.8em;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.1em;
+   
+}
+.name2{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-left: 1em;
+    width: 58%;
+    
+}
+.sub{
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-top: 0.4em;
+    color: gray;
+}
+
+.messageDrop{
+    height: calc(99vh - 100px);
+    overflow: scroll;
+}
+.messageDrop::-webkit-scrollbar{
+    height: 0;
+}
+.seeMore{
+    width: calc(100% - 2em);
+    text-align: center;
+    padding: 1em;
+    color: aliceblue;
+    border-top: 1px solid rgba(240, 248, 255, 0.144);
+}
+
+.image2{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    margin: 2.5em 0;
+    justify-content: center;
+}
+
+.lower{
+    background-color: #202326;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+.image3{
+    width: 4em;
+    margin-top: -2em;
+    border-radius: 10px;
+}
+.dropdown2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(96% );
+    background-color: #16181A;
+    border-radius: 10px;
+    color: aliceblue;
+ }
+ .email{
+     font-size: 0.7em;
+ }
+
+ .button{
+     border:1px solid tomato;
+     border-radius: 10px;
+     padding: 0.5em 1.5em;
+ }
+
+ .column{
+     margin: 1em 0;
+     width: 70%;
+     justify-content: space-around;
+    font-size: 0.7em;
+     display: flex;
+     color: tomato;
+ }
+
+ .row{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     margin-top: 1em;
+ }
+
+ .confirm{
+     font-size: 0.8em;
+ }
+
+ .column2{
+    margin: 1em 0;
+    width: 100%;
+    justify-content: space-around;
+   font-size: 0.9em;
+    display: flex;
+    color: tomato;
+}
+
+.confirm2{
+    font-size: 0.5em;
+}
+
+.person{
+    font-size: 1.2em;
+}
+
+.searchDiv{
+    border: 1px solid rgba(240, 248, 255, 0.101);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;    
+}
+
+
+.input{
+    border: none;
+    background-color: transparent;
+    padding: 0.5em 1em;
+}
+.searchDiv2{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;    
+    margin: 0 2em;
+    width: 90%;
+}
+
+
+.input2{
+    border: none;
+    background-color: transparent;
+    padding: 0.5em 1em;
+}
+
+.titleOption{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;   
+    color: aliceblue;
+    margin: 1.5em 0 0.5em 0 ;
+}
+
+.titleButton{
+    margin: 0 0.5em;
+    padding: 0.5em 2em;
+    background-color: #3081ED;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btnBlur{
+    padding: 0.5em 1em;
+    color: gray;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.dateTitle{
+    color: white;
+    margin: 1em 2em;
+}
+
+.subEmail{
+    color: gray;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.postImage{
+    margin: 1em 2em;
+    width: 20vw;
+    height: 10vw;
+}
+.postImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.postTitle{
+    margin-left: 2em;
+    color: white;
+    font-size: 1.4em;
+}
+
+.postDesc{
+    margin:0.5em 0 0.5em 3em;
+    width: 20vw;
+    color: gray;
+}
+
+.insights{
+    align-items: center;
+    display: flex;
+    font-size: 1.3em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.insightsInside{
+color: gray;
+align-items: center;
+display: flex;
+padding: 0 1em 0 0;
+
+}
+
+.likeIcon{
+    padding: 0 0.3em;
+    
+}
+
+.insightsInside3{
+    color: gray;
+    align-items: center;
+    display: flex;
+    margin-left:auto;
+    margin-right: 1.5em;
+    color: #4D77FF;
+    }
+
+    .addButton{
+        margin-right: 1em;
+        color: gray;
+    }
+
+.timeDiv{
+    color: gray;
+    margin-left: auto;
+}
+
+.Box{
+    width: calc(50vw - 1em);
+    margin-left: 1em;
+    height: calc(100vh - 90px);
+    border-radius: 20px;
+    background-color: #16181A;
+}
+.topName{
+    width: 100%;
+    border-bottom: 0.5px solid rgba(245, 245, 245, 0.145);
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.leftSide{
+    display: flex;
+    align-items: center;
+}
+.rightSide{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.messageItm{
+    color: white;
+    background-color: #3f444b;
+    margin-left: 1em;
+    padding: 0.5em 1.5em;
+    border-radius:0 10px 10px 10px;
+    max-width: 85%;
+}
+.messageItm2{
+    color: white;
+    background-color: #1773EA;
+    margin-left: 1em;
+    padding: 0.5em 1.5em;
+    border-radius:10px 0px 10px 10px;
+    max-width: 85%;
+    margin-top: 0.5em;
+}
+.messageDesc{
+
+    margin: 1em;
+    height: 73vh;
+
+}
+
+.textMsg{
+    margin: 0em 0 0.7em 1em;
+    color: gray;
+}
+
+.spacer{
+    margin: 0.5em 0;
+}
+
+.imageSpacer{
+    width: 3.5em;
+}
+
+.messageInput{
+    width: 92%;
+    margin: 1em;
+    border: 1px solid rgba(220, 220, 220, 0.193);
+    border-radius: 30px;
+}
+.inputLast{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 3em;
+    margin-left: 1em;
+    color: white;
+}
+.inputLast:focus{
+    outline: none;
+}
+
+.bottomBar{
+    display: flex;
+    align-items: center;
+}
+
+.rightBar{
+    width: 20vw;
+    margin: 0 0.5em;
+    border-radius: 20px;
+    height:calc(100vh - 92px);
+    background-color: #16181A;
+    padding-top: 16vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightMsg{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name3{
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 0.5em;
+font-size: 1.4em;
+
+}
+
+.msgImg2{
+    width: 10em;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.info{
+    display: flex;
+    margin-top: 2em;
+    color: rgb(226, 216, 216);
+    font-size: 0.9em;
+    align-items: center;
+    width: 80%;
+    text-transform: capitalize;
+}

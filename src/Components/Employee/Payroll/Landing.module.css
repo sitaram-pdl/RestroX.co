@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+    background-color: #16181A;
+    width: 100%;
+    height: calc(100vh - 90px);
+    border-radius:20px;
+    font-family: 'Poppins';
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+
+.top{
+    margin: 2vh 2vw;
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+}
+.addDepartment{
+    background-color: #202326;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.division{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   margin-top: 20px;
+    border-radius: 10px;
+    height: 84%;
+    overflow: scroll;
+}
+.division::-webkit-scrollbar{
+    height: 0;
+}
+.search{
+    width: 95%;
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 1vw 1vw 0.4vw 0;
+   
+    margin-left: 2vw;
+}
+.search2{
+    width: 93%;
+    padding: 1.5% ;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    border: 1px solid #7F7B7B ;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 0.9em;
+    color: #ffffff83;
+}
+.search3{
+    width: 93%;
+    padding: 0 1.5% ;
+     height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 11px;
+    margin-left: 2vw;
+    align-items: center;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.089);
+    font-size: 0.7em;
+}
+.searchDiv{
+    width: 88%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+   background-color: #252836;
+    border-radius: 10px;
+}
+.id{
+    width: 5%;
+    text-align: center;
+}
+.code{
+    width: 20%;
+    text-align: center;
+}
+.offers{
+    width: 25%;
+    text-align: center;
+
+}
+.start{
+    width: 25%;
+    text-align: center;
+
+}
+.input{
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #252836;
+}
+.input:focus{
+    outline: none;
+}
+.logo{
+    margin-left: 1vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rightIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 68%;
+
+    overflow-x: scroll;
+   
+}
+.rightIcons::-webkit-scrollbar{
+    height: 0;
+}
+.filter{
+    padding: 0 2vw;
+    cursor: pointer;
+}
+.tomato{
+    color: gray;
+}

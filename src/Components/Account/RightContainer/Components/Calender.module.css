@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  scroll-snap-align: start;
+  background-color: #16181a;
+  padding-top: 1em;
+  padding-bottom: 0;
+  border-radius: 20px 20px 0 0;
+  margin-top: 2em;
+}
+.name {
+  font-size: 39px;
+  font-family: "Poppins";
+  font-weight: 900;
+  color: #e4e4e4;
+  margin-left: 2vw;
+}
+.recent {
+  display: flex;
+  flex-direction: row;
+  width: 42vw;
+  font-size: 1.4vmin;
+  font-family: "Poppins";
+  font-weight: 200;
+  color: #e4e4e4;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  justify-content: space-between;
+}
+.white {
+  color: black;
+}
+.white2 {
+  color: rgb(59, 59, 59) !important;
+}
+.time {
+  font-size: 2.2vmin;
+  color: #e4e4e4;
+  font-family: "Poppins";
+  margin-top: 1.5vh;
+  margin-left: 2vw;
+}
+.today {
+  font-size: 3.5vmin;
+  font-weight: 600;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  background-color: #7b7a7a;
+  width: 16vw;
+  border-radius: 19px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.7vmin;
+}
+.timeTask {
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.textTask {
+  margin-left: 8px;
+}
+.calender {
+  margin-top: 1vh;
+}

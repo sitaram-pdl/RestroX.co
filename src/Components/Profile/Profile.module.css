@@ -1,0 +1,308 @@
+.container{
+    position: fixed;
+    right: 1.5em;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    z-index: 2500;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+   justify-content: flex-end;
+   align-items: flex-start;
+  
+}
+.icons{
+    margin-left: 12px;
+   
+}
+.text{
+    font-family: 'Poppins';
+    color: aliceblue;
+    margin-left: 12px;
+    font-size: 0.7em;
+}
+.image{
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+
+    margin-left: 12px;
+}
+.moon{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10px;
+
+    margin-left: 12px;
+}
+.message{
+    margin-top: 1em;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+   
+}
+.white{
+    color: black;
+}
+.dropdown{
+   display: flex;
+   flex-direction: column;
+   width: max(25vw,100%);
+   background-color: #16181A;
+   border-radius: 10px;
+   margin-top: 1em;
+   
+}
+.title{
+    font-size: 1.5em;
+    margin: 1.2em 1em;
+    display: flex;
+    width: calc(100% - 2em);
+    justify-content: space-between;
+    color: aliceblue;
+}
+.msgImg{
+    width: 4em;
+    border-radius: 50%;
+    border:4px solid gray;
+    padding: 1px;
+}
+.name{
+    margin-left: 0.8em;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+    width: 66%;
+    
+}
+.sub{
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-top: 0.4em;
+    color: gray;
+}
+
+.messageDrop{
+    height: 80vh;
+    overflow: scroll;
+}
+.messageDrop::-webkit-scrollbar{
+    height: 0;
+}
+.seeMore{
+    width: calc(100% - 2em);
+    text-align: center;
+    padding: 1em;
+    color: aliceblue;
+    border-top: 1px solid rgba(240, 248, 255, 0.144);
+}
+
+.image2{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    margin: 2.5em 0;
+    justify-content: center;
+}
+
+.lower{
+    background-color: #202326;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+.image3{
+    width: 4em;
+    margin-top: -2em;
+    border-radius: 10px;
+}
+.dropdown2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(96% );
+    background-color: #16181A;
+    border-radius: 10px;
+    color: aliceblue;
+ }
+ .email{
+     font-size: 0.7em;
+ }
+
+ .button{
+     border:1px solid tomato;
+     border-radius: 10px;
+     padding: 0.5em 1.5em;
+ }
+
+ .column{
+     margin: 1em 0;
+     width: 70%;
+     justify-content: space-around;
+    font-size: 0.7em;
+     display: flex;
+     color: tomato;
+ }
+
+ .row{
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     margin-top: 1em;
+ }
+
+ .confirm{
+     font-size: 0.8em;
+ }
+
+ .column2{
+    margin: 1em 0;
+    width: 100%;
+    justify-content: space-around;
+   font-size: 0.9em;
+    display: flex;
+    color: tomato;
+}
+
+.confirm2{
+    font-size: 0.5em;
+}
+
+.person{
+    font-size: 1.2em;
+}
+
+.searchDiv{
+    border: 1px solid rgba(240, 248, 255, 0.101);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;    
+}
+
+
+.input{
+    border: none;
+    background-color: transparent;
+    padding: 0.5em 1em;
+}
+.searchDiv2{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;    
+    margin: 0 2em;
+    width: 90%;
+}
+
+
+.input2{
+    border: none;
+    background-color: transparent;
+    padding: 0.5em 1em;
+}
+
+.titleOption{
+    display: flex;
+    font-size: 1.5em;
+    justify-content: center;   
+    color: aliceblue;
+    margin: 1.5em 0 0.5em 0 ;
+}
+
+.titleButton{
+    margin: 0 0.5em;
+    padding: 0.5em 2em;
+    background-color: #3081ED;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btnBlur{
+    padding: 0.5em 1em;
+    color: gray;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.dateTitle{
+    color: white;
+    margin: 1em 2em;
+}
+
+.subEmail{
+    color: gray;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.postImage{
+    margin: 1em 2em;
+    width: 25vw;
+    height: 10vw;
+}
+.postImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.postTitle{
+    margin-left: 2em;
+    color: white;
+    font-size: 1.4em;
+}
+
+.postDesc{
+    margin:0.5em 0 0.5em 3em;
+    width: 20vw;
+    color: gray;
+}
+
+.insights{
+    align-items: center;
+    display: flex;
+    font-size: 1.3em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.insightsInside{
+color: gray;
+align-items: center;
+display: flex;
+padding: 0 1em 0 0;
+
+}
+
+.likeIcon{
+    padding: 0 0.3em;
+    
+}
+
+.insightsInside3{
+    color: gray;
+    align-items: center;
+    display: flex;
+    margin-left:auto;
+    margin-right: 1.5em;
+    color: #4D77FF;
+    }
+
+    .addButton{
+        margin-right: 1em;
+        color: gray;
+    }
+
+.timeDiv{
+    color: gray;
+}

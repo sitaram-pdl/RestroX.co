@@ -1,0 +1,116 @@
+.container{
+    width: 50vw;
+    max-height: 80vh;
+    background-color: #ffffff;
+    z-index: 232324;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins";
+    color: grey;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    padding: 2vw;
+}
+.container::-webkit-scrollbar{
+    height: 0;
+}
+.title{
+    margin-top: 2vh;
+    font-weight: 900;
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 2vh;
+}
+.sub{
+    font-size: 0.8em;
+}
+
+.row{
+    display: flex;
+    width: 94%;
+    margin: 1vh 3vw;
+}
+.name{
+    font-size: 0.7em;
+    display: flex;
+    color: rgb(85, 83, 83);
+    font-weight: 600;
+    align-items: center;
+}
+.inputDiv{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border:1px solid #1a1d1fa4;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    border: none;
+    background-color: transparent;
+    height: 4vh;
+    width: 100%;
+    border-radius: 2px;
+}
+.rightTextInput{
+    width: 30%;
+    border-left: 1px solid gray;
+    font-size: 0.4em;
+    padding-left: 4%;
+}
+.input:focus{
+    outline: none;
+}
+.controlDrop{
+    border: none;
+    height: 4vh;
+    color: black;
+    width: 100%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.center{
+    width: 100%;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 60vh;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    padding: 2vh 0;
+    width: 20vw;
+    justify-content: space-between;
+}
+.save{
+    width: 5vw;
+    text-align: center;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    background-color: #EA7C69;
+    color: white;
+}
+.cancel{
+    width: 5vw;
+    text-align: center;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    color: #EA7C69;
+    border:1px solid #EA7C69
+}
+.namePoint{
+    width: 100%;
+}

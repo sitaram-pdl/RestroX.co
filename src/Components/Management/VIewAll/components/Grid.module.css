@@ -1,0 +1,49 @@
+.container {
+  margin-top: 0.6em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5px;
+}
+.images {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  margin-top: 1.5em;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.082);
+  border-radius: 10px;
+  margin-inline: 1em;
+  margin-top: 1em;
+}
+.text1 {
+  width: 82%;
+  display: flex;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 100 !important;
+  line-height: 15px;
+  margin-top: 1.7em;
+}
+.text2 {
+  width: 90%;
+  display: flex;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 100 !important;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.329);
+  letter-spacing: 1px;
+  margin: 1.7em 0;
+}
+.text3 {
+  margin-inline: 5px;
+  color: white;
+}

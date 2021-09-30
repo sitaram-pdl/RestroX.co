@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:1% ;
+    background-color: #16181A;
+    align-items: center;
+    font-family: "Poppins";
+   
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 1vw;   
+    border-bottom:1px solid #2D2F40;
+    padding: 2%;
+     
+}
+.title{
+    font-weight: 500;
+    color: white;
+}
+.picker{
+    background-color: #16181A;
+   
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 45vh;
+    overflow: hidden;
+  
+}
+
+.line{
+    width: 90%;
+    display: flex;
+    color: #D6D6D6;
+    border-bottom: 1px solid rgba(126, 125, 125, 0.397);
+    padding-bottom: 2%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.index{
+    width: 8%;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.imageDiv{
+    width: 5vw;
+    height: 5vw;
+}
+.descDiv{
+    width: 45%;
+    margin-right: 2%;
+    margin-left: 3%;
+}
+.name{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.price{
+    font-size: 0.7em;
+}
+.image2{
+    object-fit: contain;
+    width: 100%;
+}
+.imageDiv2{
+    width: 7%;
+   
+}
+.descDiv2{
+    width: 20%;
+    margin-left: 3%;
+    text-align: center;
+}
+.name2{
+    font-size: 1.2em;
+    font-weight: 600;
+}

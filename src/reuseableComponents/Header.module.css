@@ -1,0 +1,40 @@
+.container {
+    color: rgba(255, 255, 255, 0.84);
+    padding-left: 1em;
+    font-family: "Poppins";
+    cursor: context-menu;
+  }
+  .subheader {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.507);
+    margin-top: 0.1em;
+  }
+  .header {
+    font-size: 18px;
+    margin-left: 0.4em;
+  }
+  .hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.103);
+    width: 1295px;
+    margin: 0 0 0 0.2em;
+  }
+  .padding {
+    padding: 1.6em 0 0em 0em;
+    margin-left: -0.5em;
+  }
+  .marginLeft {
+    padding: 0 0.7em;
+    text-transform: capitalize;
+  }
+  .displayflex {
+    display: flex;
+  }
+  .background {
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.047);
+    border-radius: 5px;
+    height: 18px;
+  }
+  

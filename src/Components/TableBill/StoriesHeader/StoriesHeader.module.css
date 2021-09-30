@@ -1,0 +1,210 @@
+.container {
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.storiesContainer {
+  position: relative;
+}
+.white {
+  color: #1f1d2b !important;
+}
+.overview {
+  font-size: 1em;
+  font-weight: 600;
+  color: #cdcccc;
+  font-family: "Poppins";
+  margin: 2% 2%;
+  scroll-snap-align: start;
+}
+.stories {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 1em;
+  flex-wrap: nowrap;
+}
+.stories::-webkit-scrollbar {
+  width: 0px;
+  height: 0; /* width of the entire scrollbar */
+}
+.leftContainer {
+  width: 80%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.leftContainer::-webkit-scrollbar {
+  width: 0px;
+  height: 0; /* width of the entire scrollbar */
+}
+.storiesLogo {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+
+.circle {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  height: fit-content;
+  width: fit-content;
+
+  transform: translate(-50%, 0%) rotate(-90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialogRow {
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+  justify-content: space-evenly;
+}
+.dialog {
+  width: 15vw;
+  height: 10vh;
+  background-color: #16181a;
+  border-radius: 15px;
+}
+.svgcirclebg {
+  fill: none;
+}
+
+.svgcircle {
+  fill: none;
+  animation: dash 3s linear;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 230;
+  }
+}
+.rowNull {
+  display: flex;
+  flex-direction: row;
+  width: 57vw;
+  justify-content: space-between;
+  margin-left: 2vw;
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+  font-family: "Poppins";
+}
+.date {
+  font-size: 13px;
+  font-weight: 100;
+  color: #abbbc2;
+}
+.singleRow {
+  display: flex;
+  flex-direction: row;
+}
+.horizontal {
+  width: 62vw;
+  border-bottom: 1px solid #393c49;
+  margin: 1% 2%;
+}
+.storiesDiv {
+  margin: 1px 5px;
+  position: relative;
+  align-items: center;
+  display: flex;
+
+  flex-direction: column;
+}
+.rightContainer {
+  width: 20%;
+}
+.name {
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+  margin-top: 0.5vh;
+  text-transform: capitalize;
+}
+
+.absoluteDropdown {
+  background-color: #16181a;
+  width: 10em;
+  padding: 0 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+.options {
+  color: #ffffff;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+.options2 {
+  color: #ffffff;
+  margin: 0.8em 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.7em;
+  justify-content: space-between;
+  width: 100%;
+}
+.tasks {
+  color: gray;
+}
+.optional {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.food {
+  margin-left: 0.4em;
+}
+.foodDrop {
+  margin-left: 0.4em;
+}
+.absoluteDiv {
+  position: fixed;
+  right: 0;
+  z-index: 2999;
+  width: max-content;
+  display: flex;
+}
+.absoluteDropdown2 {
+  margin: 3em 0 0 0.4em;
+  background-color: #16181a;
+  width: 15em;
+  padding: 0 1em;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+}
+
+.imageTop {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+}
+.imageTop2 {
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+}
+
+.topRow {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  font-size: 0.9em;
+  align-items: center;
+  font-weight: 600;
+  margin: 1em 0;
+  justify-content: space-between;
+}

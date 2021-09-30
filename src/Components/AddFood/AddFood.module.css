@@ -1,0 +1,146 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leftContainer {
+  width: 71.4vw;
+  margin-top: 15px;
+
+  height: calc(100%-15px);
+}
+.rightContainer {
+  width: 21vw;
+  background-color: #16181a;
+  height: calc(100%-72px);
+  margin-left: 0.7em;
+  margin-top: 72px;
+  border-radius: 10px;
+}
+.leftContain {
+  background-color: #16181a;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  padding: 1em 0 0 0;
+}
+.stories {
+  margin-top: 7vh;
+}
+.leftTable {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: aliceblue;
+  margin-left: 1.8vw;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.white {
+  color: black !important;
+}
+.white2 {
+  color: rgb(82, 82, 82) !important;
+}
+.whiteBox {
+  background-color: #ffffff !important;
+}
+.inputWhite {
+  background-color: #ffffff !important;
+}
+.black {
+  color: white !important;
+}
+.search {
+  width: 15vw;
+  height: 3.2vh;
+  background-color: #18161a;
+  border-radius: 11px;
+  border: 1px solid #393c49;
+  display: flex;
+  align-items: center;
+}
+.tableName {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchIcon {
+  width: 3vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.inputField {
+  width: 10vw;
+}
+.viewSwitch {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1em;
+  margin-top: 0.4em;
+}
+.input {
+  width: 11vw;
+  border: none;
+  background-color: #18161a;
+  height: 3vh;
+  color: #abbbc2;
+  font-size: 15px;
+}
+.displayRow {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 0.2em 0;
+}
+.input:focus {
+  outline: none;
+}
+.grid {
+  width: 2vw;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  color: rgba(240, 248, 255, 0.616);
+  font-size: 15px;
+  font-weight: 600;
+  flex-wrap: nowrap;
+}
+.headers {
+  margin-left: 1.8vw;
+
+  z-index: 1000;
+  cursor: pointer;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  margin-left: 0.5vw;
+  margin-top: 2vh;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  position: relative;
+  justify-content: space-between;
+}
+.line::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.border {
+  position: absolute;
+  bottom: 0;
+  width: 75vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.246);
+  left: 1.5vw;
+}
+.borderLine {
+  border-bottom: 1px solid tomato;
+  color: tomato;
+}

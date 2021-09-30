@@ -1,0 +1,275 @@
+.container{
+    width: 60%;
+    height: 80%;
+    background-color: #16181A;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 10000000;
+    padding: 2em;
+    font-family: 'Poppins';
+}
+.mainContainer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+}
+.title2{
+   font-size: 1.5em;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.title3{
+    font-size: 1.2em;
+     width: 100%;
+     color: gray;
+     margin-top: 1em;
+     margin-left: 1em;
+ }
+.subTitle{
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    color: gray;
+}
+
+.top{
+
+    display: flex;
+    margin-top: 2em;
+    color: gray;
+    align-items: flex-end;
+}
+.single{
+    width: 30%;
+    margin: 0 1em
+}
+.inputDiv{
+    border-radius: 10px;
+    margin: 0.5em 0;
+    background-color: #202326;
+}
+.input{
+    border:none;
+    background-color: transparent;
+    height: 45px;
+    width: 100%;
+    padding: 1em;
+}
+.input:focus{
+    outline: none;
+}
+
+.name{
+    font-size: 1.2em;
+}
+
+
+.control{
+    width: 100%;
+    height: 3.5em;
+    padding-top: 12px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: auto 0em 2em 2em;
+    border-top: 1px solid rgba(128, 128, 128, 0.233);
+    padding-top: 2em;
+}
+.question{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.questionName{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    color: rgb(206, 199, 199);
+    margin-top: 2em;
+}
+.qtnBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.save{
+    background-color: #AD3D3D;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.drive{
+    border:1px solid #545454;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    color: gainsboro;
+    margin-right: 2%;
+    margin-left: auto;
+}
+.cancel{
+    width: 13%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    color: #5a595f;
+}
+
+.view{
+    width: 13%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    color: gainsboro;
+}
+.rowContract{
+    display: flex;
+    margin: 1em 0;
+
+    color: gainsboro;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.sn{
+    margin: 0 1em;
+}
+
+.rightOptions{
+    display: flex;
+    align-items: center;
+}
+
+.rightOptions div{
+    margin: 0 1em;
+}
+
+.file::-webkit-file-upload-button{
+    background-color: #545454;
+    border: none;
+    color: white;
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border-radius:10px !important ;
+
+}
+
+.print{
+    color: white;
+    background-color: #545454;
+    padding: 0.5em 1em;
+    border-radius:10px 
+}
+
+.fileImg{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.rowContract2{
+    display: flex;
+    margin: 1em 0;
+    color: gainsboro;
+    align-items: center;
+    font-size: 1.1em;
+}
+.sn{
+    width: 5%;
+}
+.checkBox{
+    width: 5%;
+}
+.firstName{
+    width: 12%;
+    margin: 0 0.5%;
+}
+
+.firstName input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    background-color:#202326;
+    border-radius: 7px;
+    padding: 0.5em 0;
+}
+.topBulk{
+    background-color: #202326;
+    display: flex;
+    margin-top: 2em;
+    color: gray;
+    padding: 0.5em 0;
+    align-items: flex-end;
+    font-size: 1.1em;
+}
+.topBulk2{
+    display: flex;
+    margin-top: 2em;
+    color: gray;
+    padding: 0.5em 0;
+    align-items: center;
+}
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    width: 8%;
+}
+.icon{
+    size:3em;
+}
+.maxDiv{
+    height: 80%;
+    overflow: scroll;
+}
+.maxDiv::-webkit-scrollbar{
+    width: 0;
+
+}
+
+.button2{
+    display: flex;
+
+}
+.add{
+    margin: 1em;
+    border-radius: 10px;
+    background-color: #242422;
+    padding: 0.5em 1em;
+}

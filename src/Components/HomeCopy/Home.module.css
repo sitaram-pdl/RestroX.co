@@ -1,0 +1,198 @@
+.container{
+    width: 94vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.container2{
+    width: 94vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.overview{
+    font-size: 38px;
+    font-weight: 600;
+    color: #CDCCCC;
+    font-family: 'Poppins';
+    margin: 2% 2%;
+
+}
+.overview2{
+    font-size: 2em;
+    font-weight: 600;
+    color: #CDCCCC;
+    font-family: 'Poppins';
+    margin:  0.7em 0.2em  ;
+
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 63vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    margin-left: 1vw;
+}
+.stories::-webkit-scrollbar {
+	width: 0px;
+	height: 0;			   /* width of the entire scrollbar */
+  }
+.leftContainer{
+    width: 80%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:scroll ;
+ }
+ .leftContainer::-webkit-scrollbar{
+     height: 0;
+     width: 0;
+ }
+ .leftContainer2{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y:scroll ;
+ }
+ .leftContainer2::-webkit-scrollbar{
+     height: 0;
+     width: 0;
+ }
+ .storiesLogo{
+     width: 65px;
+     height: 62px;
+     border-radius: 70px;
+     
+    }
+   
+    .circle {
+        position: absolute;
+        top: 0px;
+        transform: rotate(-90deg);   
+    } 
+    
+    .dialogRow{
+        display: flex;
+        flex-direction: row;
+        width: 65vw;
+        justify-content: space-evenly;
+    }
+    .dialog{
+        width: 15vw;
+        height: 10vh;
+        background-color: #16181A;
+        border-radius: 15px;
+    }
+    .svgcirclebg {
+        fill: none;
+    }
+    
+    .svgcircle {
+        fill: none;
+        animation: dash 3s linear;
+    }
+    @keyframes dash {
+        from {
+          stroke-dashoffset: 230;
+        }
+      }
+      .rowNull{
+          display: flex;
+          flex-direction: row;
+          width: 57vw;
+          justify-content: space-between;
+          margin-left: 2vw;
+          font-size: 21px;
+          font-weight: 600;
+          color: white;
+          font-family: 'Poppins';
+      }
+      .date{
+          font-size: 13px;
+          font-weight: 100;
+          color: #ABBBC2;
+      }
+    .singleRow{
+        display: flex;
+        flex-direction: row;
+    }
+    .horizontal{
+        width: 62vw;
+        border-bottom: 1px solid #393C49;
+        margin: 1% 2%;
+    }
+ .storiesDiv{
+     margin:0 5px ;
+     padding-top: 4px;
+     position: relative;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+ }
+ .rightContainer{
+     width: 20%;
+ }
+ .name{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 12px;
+    margin-top: 1vh;
+    text-transform: capitalize;
+}
+.white{
+    color: black;
+}
+
+.twoDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rightTwo{
+    width: 60%;
+}
+
+.leftTwo{
+    width: 39%;
+}
+
+.splitDiv{
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    justify-content: space-between;
+}
+.splitLeft{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+.splitRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.storiesDiv2{
+    width: 80%;
+}
+.rightDiv{
+    width: 20%;
+}
+
+
+.secondRow{
+    display: flex;
+    width: 100%;
+}

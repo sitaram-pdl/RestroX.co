@@ -1,0 +1,39 @@
+.container{
+    width: 20vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    width: 18vw;
+    margin-top: 2vh;
+   margin-left: 2vw; 
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+}
+.icons{
+    margin-left: 12px;
+   
+}
+.text{
+    font-family: 'Poppins';
+    color: aliceblue;
+    margin-left: 12px;
+}
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+    margin-left: 12px;
+}
+.message{
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.white{
+    color: black;
+}

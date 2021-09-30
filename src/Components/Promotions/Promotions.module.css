@@ -1,0 +1,69 @@
+.title{
+    margin: 5vh 0 0 2vw;
+    font-size: min(28px,2.4vw);
+   
+}
+.white{
+    color: #1F1D2B !important;
+}
+.container{
+    display: flex;
+    font-family: 'Poppins';
+    color: white;
+    flex-direction: column;
+    margin-top: 90px;
+    background-color: #16181A;
+    height: calc(100vh - 90px);
+   border-radius: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 36%;
+    border: 1px solid #3C4155;
+    padding: 22px; 
+    border-radius: 12px;
+    margin: 1vw;
+}
+.right{
+    margin-left: 2vw;
+}
+.addSection{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.add{
+    background-color: rgb(104, 104, 104);
+    padding: 2px 18px;
+    border-radius: 6px;
+}
+.mainbox{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.image{
+    background-color: rgba(255, 255, 255, 0.089);
+    height: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.subTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.desc{
+    height: 40px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.whiteBox{
+    background-color: #FFFF;
+}

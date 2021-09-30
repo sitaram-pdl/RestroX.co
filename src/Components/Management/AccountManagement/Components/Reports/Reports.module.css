@@ -1,0 +1,203 @@
+.container {
+  color: rgba(255, 255, 255, 0.808);
+  width: 100%;
+  height: 90vh;
+  background-color: #16181a;
+  margin-top: 80px;
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.companyReports::-webkit-scrollbar {
+  display: none;
+}
+.pageTitle {
+  font-size: 24px;
+  margin: 0.5em 0 0 1em;
+  font-weight: 600;
+}
+
+.topLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+  margin-left: 2em;
+}
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0 0 0;
+  position: relative;
+}
+.topleftName {
+  font-size: 1.2em;
+  letter-spacing: 0.2px;
+}
+.red {
+  color: #ff6347;
+  border-bottom: 1px solid #ff6347;
+  padding-bottom: 1em;
+}
+
+.hr {
+  margin-top: 0.7em;
+  border-bottom: 1.75px solid rgba(255, 255, 255, 0.103);
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  margin-left: 1.7em;
+}
+.secondRow {
+  display: flex;
+  margin: 0 1.8em;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search {
+  width: 80px;
+}
+.searchDiv {
+  border: 1px solid rgba(240, 248, 255, 0.101);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  padding: 0em 1em;
+}
+
+.input::placeholder {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.menu {
+  border: 0px;
+  border-radius: 10px;
+  padding: 0.4em 1em;
+  display: flex;
+  height: 2.5em;
+  background-color: rgba(240, 248, 255, 0.101);
+  margin-inline: 10px;
+  align-items: left;
+  opacity: 0.7;
+}
+
+.menuicon {
+  margin-right: 6px;
+}
+.extend {
+  margin: 0 1em;
+  background-color: rgba(240, 248, 255, 0.101);
+  border-radius: 10px;
+  display: flex;
+}
+.extendSelect {
+  padding: 0.4em 1em;
+  margin: 0 0.2em;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.527);
+}
+.extendSelected {
+  background-color: #ff634767;
+  border-radius: 12px;
+}
+.companyReports {
+  margin-top: 1.7em;
+  overflow-y: scroll;
+}
+.crTitle {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-left: 1em;
+}
+.reportsContain {
+  display: flex;
+  margin-top: 1.5em;
+  margin-left: 1em;
+}
+.report {
+  display: flex;
+  height: fit-content;
+  margin-right: 3em;
+
+  position: relative;
+}
+.leftReport {
+  background-color: #cfd2d5;
+  width: 1.6em;
+  border-radius: 4px 0 0 4px;
+  font-size: 10px;
+  z-index: 99;
+  align-items: center;
+  justify-content: center;
+}
+.rotate {
+  position: absolute;
+  transform: rotate(-90deg);
+
+  bottom: 20px;
+  z-index: 9;
+  transform-origin: left;
+  margin-left: 0.7em;
+  color: #16181a;
+  font-size: 10px;
+  font-weight: 500;
+}
+.imglogo {
+  width: 2em;
+}
+.rightReport {
+  background-color: #0e1f2e;
+  padding: 2.5em 0.4em 0.4em 0.6em;
+}
+.reportsTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.746);
+}
+.periodText {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.561);
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.329);
+}
+.reportBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 4px 4px 2px;
+}
+.restroName {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.432);
+}
+.reporttext {
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.459);
+}
+.favourites {
+  width: 100%;
+}
+.managementReports {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.topManagement {
+  width: 100%;
+  display: flex;
+  background-color: #202326;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+}

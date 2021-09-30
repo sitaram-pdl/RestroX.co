@@ -1,0 +1,29 @@
+.container {
+  background-color: #16181a;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 1em 0;
+  border-radius: 10px;
+  height: 40vh;
+}
+.topRow {
+  width: 96%;
+  display: flex;
+  padding: 0.5em 0.2em 0.5em 1em;
+}
+.topLeft {
+  width: 80%;
+  display: flex;
+}
+.topRight {
+  width: 20%;
+}
+.topHeader {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 18px;
+}
+.topSubHeader {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.568);
+  margin: 0.7em 0 0 0.3em;
+}

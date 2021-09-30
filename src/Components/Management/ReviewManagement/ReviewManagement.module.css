@@ -1,0 +1,269 @@
+.container {
+  width: 100%;
+  height: calc(100%-8vh);
+  background-color: #16181a;
+  border-radius: 20px;
+  margin-top: 8vh;
+  padding-left: 1em;
+}
+.scroll {
+  height: 92vh;
+  overflow: scroll;
+  padding: 0em 1.5em;
+  padding-bottom: 4em;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.topLeft {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.topRow {
+  display: flex;
+  justify-content: space-between;
+}
+.topRowContain {
+  width: 91.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr {
+  width: 97%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+  padding: 0.3em;
+}
+.midSearchRow {
+  display: flex;
+  justify-content: space-between;
+}
+.secondRow {
+  display: flex;
+  margin: 0 1.8em;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.4em 0 0 0;
+}
+
+.search {
+  width: 80px;
+}
+.searchDiv {
+  border: 1px solid rgba(240, 248, 255, 0.101);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  padding: 0em 1em;
+}
+
+.input::placeholder {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.menu {
+  border: 0px;
+  border-radius: 10px;
+  padding: 0.4em 1em;
+  display: flex;
+  height: 2.5em;
+  background-color: rgba(240, 248, 255, 0.101);
+  margin-inline: 10px;
+  align-items: left;
+
+  color: rgba(255, 255, 255, 0.651);
+}
+
+.menuicon {
+  margin-right: 6px;
+  color: rgba(255, 255, 255, 0.651);
+}
+
+.midContainer {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.list1 {
+  padding: 0.3em 1em;
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 1.7em;
+  border-radius: 10px;
+}
+.selectedList {
+  background-color: #202326;
+}
+.mapContain2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.4em 0 0 0;
+  margin-bottom: 2em;
+}
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  width: 306px;
+  border-radius: 10px;
+  margin: 0 1em 1em 0;
+  padding: 0.7em 0 0 0.7em;
+  background-color: #202326;
+}
+.boxTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0.7em;
+}
+.boxTopLeft {
+  display: flex;
+  width: 90%;
+  color: aliceblue;
+}
+
+.iconBox {
+  font-size: 25px;
+  margin-top: 0.3em;
+  color: rgba(255, 255, 255, 0.699);
+}
+.boxImage {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  display: flex;
+  margin-right: 0.4em;
+  margin-top: 0em;
+}
+.dishName {
+  font-size: 17px;
+  margin-left: 0.2em;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.review {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.733);
+}
+.reviewStar {
+  color: yellow;
+  margin: 0.1em 0.3em 0 0;
+}
+.reviewStar1 {
+  color: yellow;
+  margin: 0.4em 0.3em 0 0;
+}
+.boxMid {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1em 0em 1em;
+  color: rgba(255, 255, 255, 0.76);
+}
+.boxBottom {
+  width: 100%;
+
+  color: white;
+  padding-bottom: 0.5em;
+}
+.bottomLeft {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.979);
+}
+.bottomRight {
+  display: flex;
+  font-size: 11px;
+  margin-top: 0.2em;
+}
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.4em 1.2em 0.4em 0.6em;
+}
+.reviewText {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.575);
+  padding: 0.2em 0 3em 0.6em;
+  height: 60px;
+  overflow: hidden;
+  margin: 0 0 0.5em 0;
+}
+.searchDiv1 {
+  border: 1px solid rgba(240, 248, 255, 0.101);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 2em;
+  background-color: #16181a;
+  width: 88%;
+  justify-content: space-between;
+}
+
+.input1 {
+  border: none;
+  background-color: transparent;
+  padding: 0em 1em;
+}
+
+.input1::placeholder {
+  color: #ffffff9d;
+  font-size: 13px;
+}
+
+.menuicon1 {
+  margin-right: 6px;
+}
+.status {
+  width: fit-content;
+  padding: 0.09em 0.5em;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 0.7em;
+}
+.replied {
+  background-color: #3ad1bdb4;
+}
+.unreplied {
+  background-color: #a37359b4;
+}
+.absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #3a3e4232;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal3 {
+  width: fit-content;
+  height: fit-content;
+
+  z-index: 20000000;
+}

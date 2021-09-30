@@ -1,0 +1,62 @@
+.container {
+  height: 246px;
+  left: 121px;
+  top: 66px;
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+  margin-top: 2%;
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  padding: 0.5em 0 0 1em;
+}
+.title {
+  font-weight: 500;
+  width: 65%;
+  margin-top: 0.5em;
+}
+.mapcontain {
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: 1em;
+  display: flex;
+
+  justify-content: center;
+}
+.box {
+  width: 16%;
+  height: 6.5em;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+.imagecontain {
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  background: #202326;
+  padding: 0.9em 0 0 0;
+}
+.icon {
+  width: 18px;
+  height: 21px;
+  color: #d7dddfcc;
+}
+.desc {
+  margin-top: 0.5em;
+  font-weight: 400;
+  font-size: 12px;
+
+  color: #f3f4f5e7;
+}

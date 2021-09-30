@@ -1,0 +1,88 @@
+.container {
+  margin: 0 1em;
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 2%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 1em 0 0 0.4em;
+}
+.title {
+  font-weight: 500;
+
+  margin-left: 1em;
+}
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em;
+}
+
+.icon {
+  margin: 0.4em 0 0 2em;
+}
+.carousal {
+  height: 280px;
+  width: 100%;
+  display: flex !important;
+  flex-direction: column;
+}
+.imagecontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botContain {
+  width: 100%;
+  padding: 1em 2em 0 2em;
+}
+.botLeft {
+  width: 60%;
+}
+.text1 {
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #ffffff;
+
+  opacity: 0.9;
+}
+.text2 {
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 1em;
+
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+.botRight {
+  width: 40%;
+  font-size: 16px;
+  line-height: 15px;
+  margin-top: 2em;
+  color: #2d399f;
+  font-weight: 600;
+  text-align: center;
+}
+.botContain {
+  display: flex !important;
+}
+.image {
+  height: 11em;
+}

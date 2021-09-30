@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1em;
+  background-color: #16181a;
+  align-items: center;
+  font-family: "Poppins";
+  border-radius: 10px;
+}
+.graph {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.svg {
+  transform: rotate(180deg);
+  margin-top: 0vh;
+}
+.svgcirclebg {
+  fill: none;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -72%);
+  color: #4a4de6;
+  font-size: 1.4em;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subText3 {
+  font-size: 0.5em;
+  color: grey;
+}
+.svgcircle {
+  fill: none;
+  animation: dash 3s linear;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 230;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 93%;
+  margin: 1vw 0 0 0;
+  padding: 1em 0 0 0;
+}
+.title {
+  font-weight: 500;
+  color: white;
+}
+.picker {
+  color: grey;
+  font-size: 0.6em;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  padding: 2%;
+  border-top: 1px solid grey;
+  margin: 2em 0 1em 0;
+}
+
+.title2 {
+  margin-top: 0.3em;
+  font-size: 0.9em;
+  color: white;
+}
+.details {
+  color: #4a4de6;
+  font-size: 0.7em;
+}
+.circleContainer {
+  height: 8vw;
+}

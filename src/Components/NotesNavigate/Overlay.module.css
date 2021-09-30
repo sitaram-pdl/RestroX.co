@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  z-index: 999999999;
+}
+.top {
+  display: flex;
+  width: 100%;
+  font-size: 24px;
+  color: white;
+  justify-content: space-between;
+  padding: 1em;
+}
+.topIcon {
+  width: 4em;
+  justify-content: space-around;
+  display: flex;
+}
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+}
+.bottomLeft {
+  width: calc(80%);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.bottomRight {
+  width: calc(30%);
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
+  padding: 0 0.5em 0 0;
+}
+.icon1 {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+.file {
+  border: none;
+  background-color: transparent;
+  width: 25px;
+  height: 30px;
+  position: relative;
+  z-index: 9999999;
+}
+
+.file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.icon2 {
+  font-size: 27px;
+  color: rgba(255, 255, 255, 0.671);
+  position: absolute;
+  bottom: 6px;
+  z-index: 9;
+}
+.mid {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.418);
+  width: 100%;
+  padding: 0 4em;
+}

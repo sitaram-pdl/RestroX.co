@@ -1,0 +1,87 @@
+.container{
+    background-color: #16181A;
+    height: 90vh;
+    margin-top: 9vh;
+    border-radius: 20px;
+    width: 99%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 3%;
+    margin-left:4%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+}
+.white{
+    background-color: white;
+    color: #1F1D2B;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 45%;
+    border-radius: 20px;
+    z-index: 0;
+    transition: width 2s;
+}
+
+.highlight{
+    position: relative;
+    width: 65%;
+   z-index: 2000;
+   -webkit-transition:opacity 1s ease, width 1s ease,z-index 1s;
+transition:opacity 1s ease, width 1s ease, z-index 1s;  
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.back{
+    margin-right: -20vw;
+}
+.back2{
+    margin-left: -20vw;
+}
+.button{
+    padding: 10px 18px ;
+   
+}
+.row{
+    display: flex;
+    box-shadow: 1px 2px 10px #000000;
+    border-radius: 10px;
+   color: goldenrod;
+   
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    transition: background-color 1s;
+    cursor: default;
+}
+.buttonH{
+    background-color: goldenrod;
+    border-radius: 10px;
+    color: white;
+    padding: 11px 34px;
+}

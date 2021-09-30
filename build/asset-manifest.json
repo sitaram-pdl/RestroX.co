@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef39d323.chunk.css",
+    "main.js": "/static/js/main.96e0cccf.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.5edd1833.js",
+    "static/css/2.7045e839.chunk.css": "/static/css/2.7045e839.chunk.css",
+    "static/js/2.fec4e184.chunk.js": "/static/js/2.fec4e184.chunk.js",
+    "static/css/3.6c1451f0.chunk.css": "/static/css/3.6c1451f0.chunk.css",
+    "static/js/3.4978a555.chunk.js": "/static/js/3.4978a555.chunk.js",
+    "static/css/4.f063926e.chunk.css": "/static/css/4.f063926e.chunk.css",
+    "static/js/4.b4d4a756.chunk.js": "/static/js/4.b4d4a756.chunk.js",
+    "static/css/5.33d354c2.chunk.css": "/static/css/5.33d354c2.chunk.css",
+    "static/js/5.ff2a04c3.chunk.js": "/static/js/5.ff2a04c3.chunk.js",
+    "static/css/6.52dea4de.chunk.css": "/static/css/6.52dea4de.chunk.css",
+    "static/js/6.f41127bd.chunk.js": "/static/js/6.f41127bd.chunk.js",
+    "static/css/7.6f05afe5.chunk.css": "/static/css/7.6f05afe5.chunk.css",
+    "static/js/7.83f6e4b0.chunk.js": "/static/js/7.83f6e4b0.chunk.js",
+    "static/css/8.68f654f1.chunk.css": "/static/css/8.68f654f1.chunk.css",
+    "static/js/8.25cd2897.chunk.js": "/static/js/8.25cd2897.chunk.js",
+    "static/css/9.a1b60929.chunk.css": "/static/css/9.a1b60929.chunk.css",
+    "static/js/9.2abf8a98.chunk.js": "/static/js/9.2abf8a98.chunk.js",
+    "static/js/10.2c4caf3c.chunk.js": "/static/js/10.2c4caf3c.chunk.js",
+    "static/js/11.deb1e8bc.chunk.js": "/static/js/11.deb1e8bc.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.fec4e184.chunk.js.LICENSE.txt": "/static/js/2.fec4e184.chunk.js.LICENSE.txt",
+    "static/media/5star.7be4a502.PNG": "/static/media/5star.7be4a502.PNG",
+    "static/media/Group.42d11e72.png": "/static/media/Group.42d11e72.png",
+    "static/media/dark.c3cb5d28.png": "/static/media/dark.c3cb5d28.png",
+    "static/media/demo.png": "/static/media/demo.ecf45733.png",
+    "static/media/giphy.bf416582.gif": "/static/media/giphy.bf416582.gif",
+    "static/media/hellocontainimg.99648050.svg": "/static/media/hellocontainimg.99648050.svg",
+    "static/media/logo.b6a82df0.png": "/static/media/logo.b6a82df0.png",
+    "static/media/plane.877f2017.gif": "/static/media/plane.877f2017.gif",
+    "static/media/white.f8ada1af.png": "/static/media/white.f8ada1af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5edd1833.js",
+    "static/css/2.7045e839.chunk.css",
+    "static/js/2.fec4e184.chunk.js",
+    "static/css/main.ef39d323.chunk.css",
+    "static/js/main.96e0cccf.chunk.js"
+  ]
+}

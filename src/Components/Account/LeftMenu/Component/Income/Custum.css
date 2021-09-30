@@ -1,0 +1,25 @@
+.legend-container-group {
+  color: white !important;
+}
+.legend-entry-name {
+  color: white !important;
+  fill: white;
+}
+.legend-entry-value {
+  display: none !important;
+}
+.legend-group {
+  fill: white;
+}
+.legend-entry-name {
+  font-size: 11px !important;
+  opacity: 0.8;
+  font-weight: 400;
+}
+.britechart-legend {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+.legend-group {
+  margin-left: -10px !important;
+}

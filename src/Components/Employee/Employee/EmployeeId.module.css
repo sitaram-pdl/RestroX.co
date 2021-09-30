@@ -1,0 +1,238 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    width: calc(100%);
+    border-radius: 20px;
+   background-color: #16181A;
+   height: 100%;
+   padding: 0 3em;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.title{
+    margin-top: 2vh;
+    margin-left: 2vh;
+    color: aliceblue;
+    font-size: 20px;
+    width: 60%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    width: 100%;
+    color: aliceblue;
+    flex-wrap: wrap;
+   
+}
+.white{
+    color: rgb(80, 77, 77);
+    background-color: white !important;
+}
+.menuBox{
+    width: 220px;
+    height: 280px;
+    border-radius: 15px;
+    background-color: #16181A;
+    border: 1px solid rgba(128, 128, 128, 0.344);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    margin-right: 22px;
+}
+.image{
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    max-height: 40px;
+    overflow: hidden;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.price{
+    margin-top: 7px    ;
+}
+.plusRow{
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    justify-content: space-evenly;
+    margin-top:18px;
+}
+.prof{
+    padding:2px 0px ;
+   position: relative;
+   z-index: 2000;
+   height: 28px;
+   background-color: #16181A;
+   width: 120px;
+   text-align: center;
+cursor: default;
+   border-radius: 10px;
+}
+.buttonClass{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 34px;
+    width: 122px;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+.rainbow {
+    position: absolute;
+    content: "";
+    top: calc(-1 * 10px);
+    left: calc(-1 * 10px);
+   
+    width: calc(100% + 10px);
+    height: calc(100% + 10px * 2);
+    background: linear-gradient(
+      60deg,
+      hsl(269, 12%, 45%),
+      hsl(314, 85%, 66%),
+      hsl(244, 85%, 66%),
+     hsl(137, 6%, 79%),
+      hsl(179, 85%, 66%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: calc(2 * var(10px));
+    animation: moveGradient 4s alternate infinite;
+  }
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+@keyframes rotate{
+    0% {
+        border-color: tomato;
+    }
+}
+@-webkit-keyframes rotate{
+    0% {
+        border-color: tomato;
+    }
+}
+.number{
+    background-color: #252836;
+    height: 19px;
+    width: 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(44, 44, 43);
+}
+.number2{
+    background-color: #FFFFFF;
+    height: 19px;
+    width: 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(44, 44, 43);
+}
+.search{
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    overflow-x:scroll ;
+    overflow:visible;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+.rightIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 80%;
+
+    overflow-x: scroll;
+   
+}
+.rightIcons::-webkit-scrollbar{
+    height: 0;
+}
+.filter{
+    padding: 0 2vw;
+    cursor: pointer;
+}
+.tomato{
+    color: gray;
+}
+.ultraRight{
+    margin: 0 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6%;
+    align-items: center;
+    overflow:visible;
+    color: gray;
+}
+.ultraRight2{
+    margin: 0 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+    overflow:visible;
+    color: gray;
+}
+.profileOverflow{
+    height: 80vh;
+    overflow-y: scroll;
+}
+.profileOverflow::-webkit-scrollbar{
+    height: 0;
+}
+.button{
+    background-color: #16181A;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1220000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: #2b292969;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

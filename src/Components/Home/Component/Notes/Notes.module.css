@@ -1,0 +1,71 @@
+.searchDiv {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0.5em;
+  background-color: #16181a;
+  padding: 0.2em 1em;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  padding: 0.5em 1em;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.notes {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: calc(50% - 1em) calc(50%);
+  grid-auto-rows: 60px;
+  max-height: 47vh;
+  overflow-y: scroll;
+}
+.notes::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.box {
+  padding: 1em 1em;
+  background-color: #16181a;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 49%;
+  overflow: hidden;
+  margin-top: 1em;
+}
+.noteDesc {
+  display: flex;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.title {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.header {
+  line-height: 20px;
+}
+.textNotes {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.76);
+  padding-left: 0.6em;
+}
+
+.textSubNotes {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.39);
+  padding-left: 1em;
+}

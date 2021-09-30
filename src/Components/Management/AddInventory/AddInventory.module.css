@@ -1,0 +1,332 @@
+.container{
+    display: flex;
+    margin-top: 8vh;
+    width: 100%;
+    height: 92vh;
+    color: white;
+    font-family: 'Poppins';
+    flex-direction: column;
+    overflow: scroll;
+    border-radius: 20px;
+}
+.container::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.title{
+    font-size: 19px;
+    margin: 2% 2%;
+    font-weight: 900;
+}
+.table{
+    background-color: #16181A;
+    width: 100%;
+    border-radius: 20px;
+   margin-top: 1%;
+}
+.title2{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.input{
+    width: 100%;
+    height: 32px;
+    background-color: #202326;
+    border:none;
+    color: aliceblue;
+    
+}
+.input:focus{
+    outline: none;
+}
+.input3{
+    width: 98%;
+    height: 32px;
+    background-color: #202326;
+    border:none;
+    color: aliceblue;
+    
+}
+.input4{
+    width: 100%;
+    height: 22px;
+    background-color: #202326;
+    border:none;
+    color: aliceblue;
+    
+}
+.input3:focus{
+    outline: none;
+}
+.input4:focus{
+    outline: none;
+}
+
+.inputDiv{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0.6%;
+}
+.inputBg{
+    border:1px solid rgba(220, 220, 220, 0.124);
+    width: 94%;
+    border-radius: 6px;
+    background-color: #202326;
+}
+.input2{
+    width: 100%;
+    height: 122px;
+    background-color: #202326;
+    border:none
+}
+.input2:focus{
+    outline: none;
+}
+.placeholder{
+    width: 80%;
+}
+.Dropdown{
+    width: 95%;
+}
+.controlDropdown{
+    width: 100% !important;
+    color: aliceblue !important;
+    background-color: #202326;
+}
+.inputDiv2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0.6%;
+}
+.inputBg2{
+    border:1px solid rgba(220, 220, 220, 0.124);
+    width: 94%;
+    border-radius: 6px;
+    background-color: #202326;
+}
+.inputBg4{
+    border:1px solid rgba(220, 220, 220, 0.124);
+    width: 80%;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #202326;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 180px;
+}
+.categoryImage{
+    max-width: 80%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.relative{
+    position: relative;
+    margin: 2%;
+    
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    height: 150px;
+    width: 150px;
+    margin: -2% 0%;
+    
+}
+.overlay2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    height: 100px;
+    width: 100px;
+    margin: -2% 0%;
+    
+}
+.relative:hover .overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.398);
+    border-radius: 100%;
+}
+.relative:hover .overlay2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.398);
+    border-radius: 100%;
+}
+.imagePic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.imagePic2{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.inputFile{
+    border: none;
+    outline: none;
+    color: transparent;
+    height: 35px;
+}
+.inputFile::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.inputFile::before{
+    content: 'Add';
+    color: rgb(255, 255, 255);
+    background-color: #202326;
+    padding: 7px 20px ;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    
+    margin-bottom: 2%;
+}
+.hr{
+    display: flex;
+    width: 100%;
+    border-top: 4px solid #202326;
+}
+.hr2{
+    display: flex;
+    width: 100%;
+    border-top: 4px solid #202326;
+    margin-top: 2%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.recommend{
+    display: flex;
+    flex-direction: column;
+}
+.subTitle{
+    margin: 0 6%;
+}
+.subTitle2{
+    font-size: 10px;
+    color: gainsboro;
+    margin: 0 6%;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 5% 0;
+    justify-content: flex-end;
+}
+.save{
+    background-color: rgba(255, 99, 71, 0.816);
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+.drive{
+    border:1px solid tomato;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    color: tomato;
+    margin-right: 2%;
+}
+.cancel{
+    width: 13%;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 10px;
+    color: #5a595f;
+}
+.inputDiv3{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0.6%;
+}
+.inputBg3{
+    border:1px solid rgba(220, 220, 220, 0.124);
+    width: 94%;
+    border-radius: 6px;
+    height: 254px;
+    background-color: #202326;
+}
+.ingredients{
+    font-size: 12px;
+    margin: 2% 10%;
+    margin-top: 4%;
+    color: gray;
+}
+.name{
+    width: 100%;
+    text-align: center;
+}
+.name2{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+}
+.addDiv{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ingredientsDiv{
+    max-height: 125px ;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.ingredientsDiv::-webkit-scrollbar{
+height: 0;
+}
+.leftFull{
+    width: 100%;
+}

@@ -1,0 +1,177 @@
+.container {
+  width: 49%;
+  margin: 1em 1em 0.5em 0;
+  color: white;
+  background-color: #16181a;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.firstRow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.todo {
+  padding: 0.4em 1em;
+  background-color: #202326;
+  margin-right: 1em;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+}
+
+.options22 {
+  margin-left: auto;
+  margin-right: 1em;
+}
+.box {
+  margin: 0.5em 0;
+  width: calc(100%);
+  background-color: #202326;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
+  border-radius: 20px;
+}
+.topBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.desc {
+  margin: 0.7em 0;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.date {
+  color: gray;
+}
+
+.priority {
+  padding: 0.1em 1em;
+  border-radius: 10px;
+  background-color: tomato;
+}
+.priority1 {
+  background-color: tomato;
+}
+.orderImage {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  overflow: scroll;
+  padding-left: 0.5em;
+}
+.orderImage::-webkit-scrollbar {
+  width: 0px;
+  height: 0; /* width of the entire scrollbar */
+}
+.image {
+  width: 1.5em;
+  object-fit: cover;
+  margin-left: -0.5em;
+  border-radius: 50px;
+}
+.scrollTask {
+  max-height: 50vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+.scrollTask::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.progress {
+  background-color: #68acfb;
+  color: black;
+}
+
+.completed {
+  background-color: #aff9ac;
+  color: black;
+}
+
+.absoluteDropdown {
+  background-color: #16181a;
+  width: 10em;
+  padding: 0 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+.options {
+  color: #ffffff;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+.options2 {
+  color: #ffffff;
+  margin: 0.8em 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.7em;
+  justify-content: space-between;
+  width: 100%;
+}
+.tasks {
+  color: gray;
+}
+.optional {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.food {
+  margin-left: 0.4em;
+}
+.foodDrop {
+  margin-left: 0.4em;
+}
+.absoluteDiv {
+  position: fixed;
+  right: 0;
+  z-index: 2999;
+  width: max-content;
+  display: flex;
+}
+.absoluteDropdown2 {
+  margin: 3em 0 0 0.4em;
+  background-color: #16181a;
+  width: 15em;
+  padding: 0 1em;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+}
+
+.imageTop {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+}
+.imageTop2 {
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+}
+
+.topRow {
+  display: flex;
+  width: 100%;
+  color: #ffffff;
+  font-size: 0.9em;
+  align-items: center;
+  font-weight: 600;
+  margin: 1em 0;
+  justify-content: space-between;
+}

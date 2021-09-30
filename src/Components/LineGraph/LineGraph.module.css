@@ -1,0 +1,104 @@
+.svgcirclebg {
+    fill: none;
+}
+
+.svgcircle {
+    fill: none;
+    animation: dash 3s linear;
+}
+@keyframes dash {
+    from {
+      stroke-dashoffset: 450;
+    }
+  }
+.container{
+    width: 18vw;
+    margin-top: 2vh;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 68%;
+    padding: 2vh 0vw;
+}
+.graph{
+    position: relative;
+    width: 50%;
+    margin-left: 4%;
+    height: 100%;
+}
+.circle{
+    position: absolute;
+    top: 0vw;
+    left: 0vw ;
+    transform: rotate(-90deg);
+}
+.circle2{
+    position: absolute;
+    top: 0.4vw;
+    left: calc(0.4vw);
+    transform: rotate(-90deg);
+}
+.circle3{
+    position: absolute;
+    top: 0.8vw;
+    left: calc( 0.8vw);
+
+    transform: rotate(-90deg);
+   
+}
+.circle4{
+    position: absolute;
+    top: 2.4vh;
+    left: calc( 2.4vh);
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    margin-top: 9px;
+}
+.legend{
+    font-family: 'Poppins';
+    color: aliceblue;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 2vw;
+    overflow-y: scroll;
+
+    font-size: min(14px,0.7vw);
+
+}
+.legend::-webkit-scrollbar{
+    height: 0;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    background-color: #65B0F6;
+    border-radius: 50%;
+}
+.dot2{
+    width: 12px;
+    height: 12px;
+    background-color: teal;
+    border-radius: 50%;
+}
+.dot3{
+    width: 12px;
+    height: 12px;
+    background-color: #FFB572;
+    border-radius: 50%;
+}
+.customers{
+    display: flex;
+    font-size: min(12px,0.5vw);
+}
+.right{
+    margin-left: 12px;
+}

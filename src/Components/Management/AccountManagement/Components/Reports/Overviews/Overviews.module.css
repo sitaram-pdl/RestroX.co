@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.087);
+  border-radius: 10px;
+  margin: 1em 0;
+}
+.paddingBottom {
+  padding-bottom: 1em;
+}
+.box {
+  width: 100%;
+  display: flex;
+
+  padding: 0 0.2em 0 4em;
+  flex-wrap: wrap;
+}
+.header {
+  margin: 0.5em 0 0.5em 1em;
+  font-size: 1.4em;
+  color: rgba(255, 255, 255, 0.763);
+  font-weight: 600;
+  display: flex;
+}
+.data {
+  width: 22vw;
+  font-size: 18px;
+
+  font-weight: 400;
+  margin-bottom: 0.2em;
+
+  margin: 0.2em 2.1em 0.2em 0;
+  padding: 0.2em 0.4em 0.2em 1.1em;
+}
+.arrow {
+  font-size: 1.4em;
+  margin-right: 0.2em;
+}
+.boxBorder {
+  border: 1px solid rgba(255, 255, 255, 0.095);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.dataBox {
+  height: 40px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.5501) !important;
+}
+.iconContain {
+  display: flex;
+  justify-content: space-around;
+  width: 3vw;
+  font-size: 18px;
+  margin-top: 0.2em;
+}
+.starHover {
+  color: green;
+}
+.optionBox {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+
+  z-index: 9999999999999999;
+
+  background-color: #202326;
+  padding: 0.4em 0;
+  border-radius: 5px;
+}
+.optionList {
+  font-size: 1em;
+  padding: 0.2em 0.4em 0.2em 1em;
+}

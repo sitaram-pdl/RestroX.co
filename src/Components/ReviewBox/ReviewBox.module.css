@@ -1,0 +1,128 @@
+.container{
+    width: 17vw;
+    height: 41vh;
+    background-color:#16181A ;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+}   
+.white{
+    background-color: white !important;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    border-bottom: 2px solid #202326;
+    padding-bottom: 0.8vh;
+}
+
+.topText{
+    margin-left: 1vw;
+    font-size: min(1vw,21px);
+    color: white;
+    font-weight: 600;
+}
+.subText{
+    font-size: min(0.8vw,15px);
+    font-weight: 200;
+    color: #ADB5BD;
+}
+.white2{
+    color: black !important;
+}
+.whiteText{
+    color: black !important;
+}
+.reviews{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ADB5BD;
+    overflow: scroll;
+}
+.reviews::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+.individual{
+    height: 12vh;
+    width: 15vw;
+    margin-top: 1vh;
+}
+.reviewTop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name{
+    font-size: min(1vw,12px);
+    width: 8vw;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #000000;
+}
+.name2{
+    font-size: min(1vw,12px);
+    width: 8vw;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #F3EBEB;
+}
+.time{
+    font-size: min(0.6vw,10px);
+    width: 5vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    font-size: min(0.8vw,11px);
+    align-items: center;
+}
+.message{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: min(0.7vw,12px);
+    margin-top: 0.2vh;
+}
+/* .individual:hover .message{
+    white-space: normal;
+    
+} */
+.line{
+    width: 15vw;
+    border-bottom: 0.2vmin solid #202326;
+    margin-top: 0.7vh;
+}
+/* .individual:hover{
+   height: max-content;
+   background-color: #252836;
+   border-radius: 10px;
+   padding: 2vw;
+} */
+.lowerDiv{
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #F3EBEB;
+    font-size: min(0.9vw,12px);
+
+}
+.seperator{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

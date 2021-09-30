@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #16181a;
+  border-radius: 10px;
+  padding: 1.4em 1em 0.4em 1.4em;
+  margin-top: 0.5em;
+}
+.textMenu {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.795);
+}
+.subMenu {
+  font-size: 14;
+  color: rgba(255, 255, 255, 0.37);
+}
+
+.mapContain {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0 0.5em 0;
+}
+.box {
+  display: flex;
+  padding: 0.5em 1.6em;
+  background-color: #202326;
+  border-radius: 10px;
+  margin: 0.4em;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+}
+.mapRight {
+  line-height: 18px;
+}
+.mapHead {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.829);
+}
+.mapSubHead {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.466);
+}
+.image1 {
+  width: 15px;
+  height: 15px;
+}

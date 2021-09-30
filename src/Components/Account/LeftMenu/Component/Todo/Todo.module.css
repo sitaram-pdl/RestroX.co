@@ -1,0 +1,34 @@
+.maincontainer {
+  width: 100%;
+  height: 100%;
+  background-color: #16181a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em;
+}
+
+.todo {
+  color: white;
+}
+.container {
+  height: 90%;
+}
+.dot {
+  width: 8px;
+  height: 9px;
+  left: 14px;
+  top: 0px;
+  border-radius: 5px;
+
+  background: rgba(207, 191, 191, 0.438);
+  margin: 0 0.3em 0;
+}
+.pagination {
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+}

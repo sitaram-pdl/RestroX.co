@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1em;
+  background-color: #16181a;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Poppins";
+}
+.graph {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  margin: 1vw 1vw 0.4vw 1vw;
+  border-bottom: 1px solid #2d2f40;
+  padding: 2% 1em 0.7em 2%;
+}
+.title {
+  font-weight: 500;
+  color: white;
+}
+.picker {
+  background-color: #16181a;
+}
+.dropDown1 {
+  width: 10em;
+}
+.title1 {
+  width: 100%;
+  text-align: left;
+  padding-left: 3em;
+  color: rgba(255, 255, 255, 0.315);
+}

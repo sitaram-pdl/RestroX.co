@@ -1,0 +1,14 @@
+#progressbarLine .ant-progress-text {
+  display: none !important;
+}
+
+#progressbarLine .ant-progress-inner {
+  background-color: #f5f5f11f !important;
+}
+#progressbarCircle .ant-progress-inner {
+  background-color: #f5f5f100 !important;
+}
+
+#progressbarCircle .ant-progress-text {
+  display: none !important;
+}

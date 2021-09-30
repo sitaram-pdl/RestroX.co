@@ -1,0 +1,106 @@
+.container {
+  width: 99%;
+
+  background-color: #16181a;
+  border-radius: 10px;
+  margin: 1em 0;
+  padding: 1em;
+}
+.topLeft {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.topRow {
+  display: flex;
+  justify-content: space-between;
+}
+.topRight {
+  width: 40%;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  color: white;
+}
+.search {
+  width: 80px;
+}
+.searchDiv {
+  border: 1px solid rgba(240, 248, 255, 0.101);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  padding: 0em 1em;
+}
+
+.input::placeholder {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.menu {
+  border: 0px;
+  border-radius: 10px;
+  width: 7vw;
+  display: flex;
+  height: 2.5em;
+  background-color: rgba(240, 248, 255, 0.101);
+  padding-top: 0.5em;
+  padding-left: 10px;
+  margin-inline: 10px;
+  align-items: left;
+  opacity: 0.7;
+}
+
+.menuicon {
+  margin-right: 6px;
+}
+.hr {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+  padding: 0.6em;
+}
+
+.mapcontain {
+  width: 100%;
+  display: flex;
+  padding: 2em 0.3em;
+
+  flex-wrap: wrap;
+}
+.list {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.562);
+  padding-bottom: 0.4em;
+  margin: 1em 4em 1em 0em;
+}
+.textMid {
+  text-align: left;
+  display: flex;
+}
+.image {
+  height: 35px;
+  width: 35px;
+}
+.text1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.753);
+}
+.text2 {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.596);
+}
+.text {
+  line-height: 20px;
+}

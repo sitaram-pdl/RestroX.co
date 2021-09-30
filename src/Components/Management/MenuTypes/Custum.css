@@ -1,0 +1,12 @@
+#custumswitch .ant-switch-inner {
+  width: 2em;
+}
+.ant-notification-notice-message {
+  color: rgb(247, 239, 239) !important;
+}
+.ant-notification-notice {
+  border-left: 2px solid #ec4c47;
+}
+.ant-notification-notice-close {
+  color: rgba(246, 241, 241, 0.863);
+}

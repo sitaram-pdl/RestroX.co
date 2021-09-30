@@ -1,0 +1,384 @@
+.container {
+  width: 100%;
+  margin-top: 8vh;
+  border-radius: 20px;
+  height: calc(100% - 8vh);
+  background-color: #16181a;
+  display: flex;
+  border-radius: 20px;
+  color: white;
+  font-family: "Poppins";
+  flex-direction: column;
+}
+.rightTop {
+  display: flex;
+  flex-direction: row;
+}
+.subRightTop1 {
+  display: flex;
+  background-color: #202326;
+  padding: 0.5em 1em;
+
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+.subRightTop {
+  display: flex;
+  background-color: #202326;
+  padding: 0.5em 1em;
+  width: 15em;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+.whiteBox {
+  background-color: #ffff !important;
+}
+.container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.top {
+  width: 100%;
+}
+.subTop {
+  display: flex;
+  justify-content: space-between;
+}
+.textRightTop {
+  font-size: 1.2em;
+}
+
+.table {
+  width: 98%;
+  display: flex;
+  margin-top: 2em;
+  margin-left: 2em;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.2em;
+}
+.table2 {
+  display: flex;
+  width: calc(100% - 2em);
+  justify-content: space-between;
+  margin-left: 2em;
+  margin-top: 1em;
+  font-size: 1em;
+}
+.table3 {
+  display: flex;
+  width: calc(100% - 5em);
+  justify-content: space-between;
+  margin-left: 2em;
+  margin-top: 1em;
+  font-size: 1em;
+}
+.leftSide {
+  width: calc(100%);
+}
+.subText {
+  font-size: 0.8em;
+  color: gray;
+}
+.addButton {
+  padding: 0.5em 2em;
+  border-radius: 10px;
+  background-color: #031a6e;
+  font-size: 0.8em;
+}
+.absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(122, 121, 121, 0.063);
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 60%;
+  height: 90%;
+  border-radius: 30px;
+  z-index: 222;
+  background-color: #17181a;
+  overflow: hidden;
+}
+.modal2 {
+  width: 40%;
+  height: 90%;
+  border-radius: 30px;
+  z-index: 222;
+  background-color: #17181a;
+  overflow: hidden;
+}
+.modal3 {
+  width: 40%;
+  height: 70%;
+  border-radius: 30px;
+  z-index: 222;
+  background-color: #17181a;
+  overflow: hidden;
+}
+.singleTop {
+  width: 100%;
+  display: flex;
+}
+.fadedGraph {
+  width: calc(30% - 2em);
+  margin-left: 2em;
+}
+.shortcut {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.hr {
+  width: 100%;
+  margin-top: 0.8em;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.207);
+}
+.hr2 {
+  width: 27%;
+  margin-left: 1em;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.207);
+  margin-top: 1em;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 4em);
+  margin: 2em 2em;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 18px;
+  border: 1px solid rgba(220, 220, 220, 0.316);
+  margin-right: 2%;
+  margin-top: 1em;
+}
+.image {
+  width: 30%;
+}
+.image2 {
+  width: 3em;
+}
+
+.text2 {
+  font-size: min(18px, 0.8vw);
+  color: gray;
+  margin: 0.1em 0 1em 0;
+}
+.button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ea7c6941;
+  height: 18%;
+  border-radius: 12px;
+  align-items: center;
+  margin-top: 6%;
+  color: #ea7c69;
+}
+.boxType {
+  display: flex;
+  margin: 1em;
+}
+.boxType2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.typesRight {
+  font-size: 1em;
+  margin-left: 1em;
+}
+.items {
+  color: gray;
+}
+.typesImage {
+  width: 3em;
+  padding: 0 0.3em;
+}
+.typesBox2 {
+  display: flex;
+  padding: 0.7em 2em;
+  border-radius: 5px;
+  background-color: #202326;
+  font-size: 0.9em;
+  margin: 0.5em 0.5em;
+}
+.typesBox {
+  display: flex;
+  padding: 0.7em 2em;
+  border-radius: 10px;
+  background-color: #202326;
+  font-size: 1em;
+  margin: 0 0.5em;
+}
+/* Category */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 22px;
+  width: calc(100% - 1em);
+  color: aliceblue;
+
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+.white {
+  color: rgb(80, 77, 77);
+  background-color: white !important;
+}
+.menuBox {
+  border-radius: 5px;
+  border-left: 1em solid gray;
+  background-color: #202326;
+  display: flex;
+  flex-direction: column;
+  width: 13em;
+  padding-left: 1em;
+  margin-right: 1.5em;
+  height: 15em;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.hoverBox {
+  width: 8em;
+  padding: 1em 0;
+}
+.image {
+  border-radius: 50%;
+  background-color: #202326;
+
+  margin-top: -3em;
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+}
+.text {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 1em;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.price {
+  margin-top: 0.5em;
+  font-size: 0.8em;
+  padding-bottom: 1.5em;
+  color: gray;
+}
+.images {
+  background-color: #202326;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  padding: 2em 5em;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 2em;
+}
+.logoImg {
+  width: 4em;
+}
+/**menu book css */
+.companyReports {
+  margin-top: 1.7em;
+  overflow-y: scroll;
+}
+.crTitle {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-left: 1em;
+}
+.reportsContain {
+  display: flex;
+
+  margin-left: 1em;
+  flex-wrap: wrap;
+}
+.report {
+  display: flex;
+  height: fit-content;
+  margin-right: 3em;
+  margin-top: 1.5em;
+  position: relative;
+  padding-left: 1.2em;
+}
+.leftReport {
+  background-color: #cfd2d5;
+  width: 1.2em;
+  border-radius: 4px 0 0 4px;
+  font-size: 10px;
+  z-index: 99;
+  align-items: center;
+  justify-content: center;
+}
+.rotate {
+  position: absolute;
+  transform: rotate(-90deg);
+
+  bottom: 20px;
+  z-index: 9;
+  transform-origin: left;
+  margin-left: 0.7em;
+  color: #16181a;
+  font-size: 10px;
+  font-weight: 500;
+}
+.imglogo {
+  width: 2em;
+}
+.rightReport {
+  padding: 2.5em 0.4em 0.4em 0.6em;
+}
+.reportsTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.746);
+}
+.periodText {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.561);
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 0.329);
+}
+.reportBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 4px 4px 2px;
+}
+.restroName {
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.432);
+}
+.reporttext {
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.459);
+}

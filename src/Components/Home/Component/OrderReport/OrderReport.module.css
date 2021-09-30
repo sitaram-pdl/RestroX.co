@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.orderTable {
+  display: flex;
+  width: calc(100% - 1em);
+  padding-top: 1em;
+  background-color: #16181a;
+  height: 62vh;
+  border-radius: 10px;
+  font-family: "Poppins";
+  flex-direction: column;
+  padding-bottom: 1vh;
+  padding-left: 1em;
+}
+.tableHeight {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.tableHeight::-webkit-scrollbar {
+  background-color: none;
+}
+.white {
+  background-color: white !important;
+  color: black !important;
+}
+.title {
+  font-size: 18px;
+  margin: 1.5vh 0 0.3vh 2vw;
+  font-weight: 600;
+  color: rgba(240, 248, 255, 0.84);
+  display: flex;
+  width: 94%;
+  justify-content: space-between;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  margin-top: 1vh;
+  margin-left: 1vw;
+  font-size: 0.8em;
+  width: 100%;
+}
+.table1 {
+  width: 21%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image {
+  width: 3vw;
+  height: 3vw;
+  margin-right: 1vw;
+}
+.table2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  font-size: 0.9em;
+  padding-right: 3%;
+}
+.table3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 13%;
+}
+.table4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+.table5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+.box {
+  padding: 0.5vh 1vw;
+  border-radius: 15px;
+}
+.green {
+  background-color: #6be2be3f;
+  color: #50d1aa;
+}
+.red {
+  background-color: #ffb67260;
+  color: #ffb572;
+}
+.table6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+  text-align: center;
+}
+.horizontal {
+  width: 90%;
+  margin-top: 1%;
+  border-bottom: 1px solid #393c49;
+}
+.dropDown {
+  width: 6vw !important;
+}

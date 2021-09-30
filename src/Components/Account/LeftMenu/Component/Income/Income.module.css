@@ -1,0 +1,73 @@
+.container {
+  height: 300px;
+  left: 121px;
+  top: 66px;
+  display: flex;
+  background: #16181a;
+  border-radius: 10px;
+  color: #f6f6f6;
+
+  background-color: #16181a;
+  display: flex;
+  flex-direction: column;
+}
+
+.graph {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 2%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  padding: 1em 0 0 0.4em;
+}
+.title {
+  font-weight: 500;
+  width: 85%;
+
+  margin-left: 1em;
+}
+.dropdown {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.barcontainer {
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.barcontain {
+  display: flex;
+  margin-left: 1em;
+}
+
+.legendContain {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 0.4em 0 0 2em;
+}
+.dotgreen {
+  width: 0.7em;
+  height: 0.7em;
+  border: 0.5px solid #1ab846;
+  border-radius: 10px;
+  margin: 0.5em 1em;
+  background-color: #1ab846;
+}
+.dotgrey {
+  width: 0.7em;
+  height: 0.7em;
+  border: 0.5px solid #4e4f52;
+  border-radius: 10px;
+  margin: 0.5em 1em;
+  background-color: #4e4f52;
+}

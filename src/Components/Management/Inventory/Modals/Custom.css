@@ -1,0 +1,12 @@
+.Dropdown-control{
+    width:100%  !important;
+    border: none;
+    border-radius: 5px !important;
+    background-color: #202326;
+    height: 42px;
+}
+.Dropdown-root{
+    width:100%  !important;
+    margin-left: 1em;
+    
+}

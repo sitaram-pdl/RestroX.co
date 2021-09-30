@@ -1,0 +1,166 @@
+.container{
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Poppins';
+    
+}
+.nameBar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.name{
+    margin-right: 1vw;
+    cursor: default;
+}
+.topDiv{
+    height: 300px;
+    width: 100%;
+    margin-left: 2vw;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+}
+.lowerDiv{
+    width: 100%;
+    margin-left: 2vw;
+   margin-top: 12px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   padding-bottom: 10vh;
+}
+.left{
+    margin-right: 1vw;
+    width: 20%;
+    background-color: #16181A;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px 0 0 18px;
+}
+.right{
+    width: 50%;
+    background-color: #16181A;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    margin-right: 1vw;
+   
+}
+.taskNotes{
+    width: 30%;
+    background-color: #16181A;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+.subText{
+    font-size: 10px;
+}
+.individual{
+    width: 32%;
+    margin-top: 22px;
+    font-size: 14px;
+    margin-right: 1%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.desc{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+.leftContainer{
+    width: 97%;
+    overflow: scroll;
+    
+}
+.leftContainer::-webkit-scrollbar{
+    height: 0;
+}
+.rightContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:calc(5vh + 53px);
+}
+.title{
+    margin-top: 22px;
+    margin-left: 4%;
+}
+.image{
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.cashier{
+    font-size: 11px;
+    color: gray;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 12px;
+}
+.button{
+    width: 40%;
+    margin-right: 2%;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    border-radius: 20px;
+    padding: 4px 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding:2vw;
+    font-size: 12px;
+}
+.portfolio{
+    margin-right: 1vw;
+    padding: 0.5vw 1vw;
+   border-bottom:1px solid rgb(255, 112, 87);
+    
+}
+.white{
+    border:none
+}
+.div{
+    height: 300px;
+    background-color: #16181A;
+    width: 80%;
+    border-radius: 20px;
+    margin-left:  2vw;
+    margin-bottom: -11vh;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+.icon{
+    margin-right: 0.5vw;
+}
+.modal{
+    display: flex;
+    position: fixed;
+    z-index: 22000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

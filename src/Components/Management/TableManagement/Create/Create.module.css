@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    background-color: #16181A;
+    margin-top: 90px;
+    width: 100%;
+    height: calc(100vh - 90px);
+    border-radius:20px;
+    font-family: 'Poppins';
+    flex-direction: column;
+    position: relative;
+    color: white;
+    }
+.title{
+    font-size: 26px;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+.row{
+    display: flex;
+    width: 94%;
+    margin: 2vw 3vw;
+}
+.name{
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+.inputDiv{
+    width: 90%;
+    background-color: #202326;
+    border-radius: 10px;
+    border:1px solid #935660;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.dim{
+    color: gray;
+    margin-left: 1vw;
+    font-size: 15px;
+}
+.row2{
+    display: flex;
+    width: 94%;
+    margin: 1vw 0vw;
+    align-items: center;
+    
+}
+
+.divider{
+    margin: 0.9vw;
+}
+.option{
+    width: 20%;
+    color: gray;
+    border-left: 1px solid gray;
+    text-align: center;
+}
+.input::placeholder{
+    padding-left: 1vw;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 1%;
+}
+.button{
+    width: 20%;
+    background-color: tomato;
+    padding: 20px 10px;
+    margin-right: 2vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.button1{
+    width: 20%;
+     padding: 20px 10px;
+    margin-right: 2vw;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid tomato;
+    color: tomato;
+}

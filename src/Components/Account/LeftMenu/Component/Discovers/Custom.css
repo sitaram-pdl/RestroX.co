@@ -1,0 +1,10 @@
+.ant-carousel .slick-dots li button {
+  width: 9px !important;
+  height: 9px !important;
+
+  border-radius: 9px !important;
+}
+
+.ant-carousel .slick-dots li {
+  margin: 0 0 0 0 !important;
+}

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #16181A;
+    width: 100%;
+    margin-top: 90px;
+    border-radius: 20px;
+    height: calc(100vh - 90px);
+    color: aliceblue;
+}
+.title{
+    display: flex;
+    margin-top: 2vw;   
+    font-size: 22px;
+    margin-left: 2vw;
+}

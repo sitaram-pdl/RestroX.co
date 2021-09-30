@@ -1,0 +1,49 @@
+.container {
+  width: 400px;
+  display: flex;
+  background-color: #202326;
+  justify-content: space-around;
+  margin-top: 2em;
+  border-radius: 10px;
+  padding: 0 0 1em 0;
+}
+.left {
+  color: white;
+
+  align-items: center;
+  justify-content: center;
+}
+.congratulation {
+  font-size: 22px;
+  font-weight: 400;
+  color: #7367f0;
+  margin-top: 0.4em;
+}
+.text {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.767);
+  margin-top: 0.4em;
+}
+.rating {
+  font-size: 28px;
+  font-weight: 600;
+  color: #7367f0;
+  margin-top: 0.8em;
+}
+.viewSales {
+  font-size: 1p6x;
+  padding: 0.4em 1em;
+  margin-top: 0.3em;
+  width: fit-content;
+  background-color: #7367f0;
+  border-radius: 8px;
+}
+.right {
+}
+.image {
+  width: 70px;
+}
+.image2 {
+  width: 25px;
+  margin: 0 0.5em;
+}

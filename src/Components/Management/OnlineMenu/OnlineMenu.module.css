@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    height: calc(100vh - 90px);
+    width: 100%;
+    align-items: center;
+    overflow: scroll;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+.container::-webkit-scrollbar{
+    height: 0;
+}
+.mobile{
+    width: 375px;
+    height: 812px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    margin-top: 2vw;
+    z-index: 222;
+    
+}
+.iphone{
+    left: -5%;
+    top: calc(2vw - 1.9% );
+    width: 110%;
+    height: 104%;
+    position: absolute;
+}

@@ -1,0 +1,121 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+.line{
+    flex:10
+}
+.dot{
+    flex:2
+}
+.pallete{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 0.2em;
+    margin-top: 1vw;
+}
+.message{
+    width: 85%;
+    background-color: #FABB18;
+    margin-left: 1em;
+    border-radius: 12px;
+     display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.message2{
+    width: 85%;
+    margin-left: 1em;
+    border-radius: 12px;
+     display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: white;
+}
+.line{
+    border-right: 1px solid orange;
+    min-height: 12vh;        
+    transform: translate(-50%);
+}
+.line2{
+    border-right: 1px solid orange;
+    min-height: 9vh;        
+    transform: translate(-50%);
+}
+.division{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 600;
+    align-items: center;
+}
+.divison{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    
+    align-items: center;
+    font-family: 'Poppins';
+    
+}
+.divison1{
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    font-family: 'Poppins';
+    
+    align-items: center;
+    font-size: 0.8em;
+    
+}
+.divison{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    padding-top: 2vh;
+    font-family: 'Poppins';
+    font-size: 0.8em;
+    
+}
+.division2{
+    width: 85%;
+    margin-top: 0.6vh;
+    color: #454545;
+    font-size: 0.9em;
+    overflow: hidden;
+    
+    padding: 0 0 0.6em 0;
+}
+.divison2{
+    width: 85%;
+    margin-top: 0.6vh;
+    color: #C0C0C0;
+     font-size: 0.6em;
+     padding: 0.2em;
+    overflow: hidden;
+}
+.whiteDiv{
+    width: 25vw;
+    margin-top: 0.6vh;
+    height: 2.5vh;
+    font-size: 0.6em;
+    overflow: hidden;
+    color: #9e9e9e;
+}
+.timeStamp{
+    font-size: 0.6em;
+}
