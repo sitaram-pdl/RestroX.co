@@ -98,24 +98,6 @@ const ProductManagement = (props) => {
       name: "Breakfast",
       type: "Owner",
     },
-    {
-      image:
-        "http://media-s3-us-east-1.ceros.com/walstead/images/2018/12/17/9d0fb808541c6b60f58bbabdae6d41c2/shutterstock-391582873-burger-plate.png",
-      name: "Breakfast",
-      type: "Owner",
-    },
-    {
-      image:
-        "http://media-s3-us-east-1.ceros.com/walstead/images/2018/12/17/9d0fb808541c6b60f58bbabdae6d41c2/shutterstock-391582873-burger-plate.png",
-      name: "Breakfast",
-      type: "Owner",
-    },
-    {
-      image:
-        "http://media-s3-us-east-1.ceros.com/walstead/images/2018/12/17/9d0fb808541c6b60f58bbabdae6d41c2/shutterstock-391582873-burger-plate.png",
-      name: "Breakfast",
-      type: "Owner",
-    },
   ]);
   const [shortcuts, setShortcuts] = useState([
     { name: "Add Dishes" },
@@ -158,22 +140,23 @@ const ProductManagement = (props) => {
                 <div className={styles.addButton}>Add Category</div>
               </div>
             </div>
-
-            <div className={styles.menu}>
-              {data.map((dat, index) => (
-                <div
-                  onMouseEnter={() => setHover(index)}
-                  className={cx(
-                    styles.menuBox,
-                    props.theme ? styles.white : null,
-                    hover == index ? styles.hoverBox : null
-                  )}
-                >
-                  <img className={styles.image} src={dat.image}></img>
-                  <div className={styles.text}>{dat.name}</div>
-                  <div className={styles.price}>23 Items</div>
-                </div>
-              ))}
+            <div className={styles.menucontainer}>
+              <div className={styles.menu}>
+                {data.map((dat, index) => (
+                  <div
+                    onMouseEnter={() => setHover(index)}
+                    className={cx(
+                      styles.menuBox,
+                      props.theme ? styles.white : null,
+                      hover == index ? styles.hoverBox : null
+                    )}
+                  >
+                    <img className={cx(styles.image)} src={dat.image}></img>
+                    <div className={styles.text}>{dat.name}</div>
+                    <div className={styles.price}>23 Items</div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
           <div className={styles.fadedGraph}>

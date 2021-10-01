@@ -212,16 +212,21 @@
   margin: 0.5em 0.5em;
 }
 /* Category */
-
+.menucontainer {
+  width: 100%;
+  overflow: hidden;
+}
 .menu {
   display: flex;
   flex-direction: row;
   margin-top: 22px;
+  width: fit-content;
 
   color: aliceblue;
 
   flex-wrap: nowrap;
   padding-left: 0.5em;
+
   overflow-x: scroll;
 }
 .menu::-webkit-scrollbar {
